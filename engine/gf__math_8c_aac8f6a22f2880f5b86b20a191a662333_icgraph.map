@@ -1,0 +1,7 @@
+<map id="gf_math_cot" name="gf_math_cot">
+<area shape="rect" id="Node000001" title="Calculate cot(x)" alt="" coords="453,5,556,31"/>
+<area shape="rect" id="Node000002" href="$gf__graphic_8c.html#a95e7c86d8e9b64501af7de7268f6d74d" title="Set perspective." alt="" coords="232,5,405,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="440,21,406,21,406,15,440,15"/>
+<area shape="rect" id="Node000003" href="$gf__driver_8c.html#af0a260e2df4036c09bebe329c821fc19" title="Do stuffs required on resizing window." alt="" coords="5,5,184,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="218,21,184,21,184,15,218,15"/>
+</map>

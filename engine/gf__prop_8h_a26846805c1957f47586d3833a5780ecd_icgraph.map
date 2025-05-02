@@ -1,0 +1,9 @@
+<map id="gf_prop_get_floating" name="gf_prop_get_floating">
+<area shape="rect" id="Node000001" title="Get floating number from property." alt="" coords="420,35,575,60"/>
+<area shape="rect" id="Node000002" href="$gf__gui__button_8c.html#a0ccdea48225257886285941d53feb670" title=" " alt="" coords="212,5,372,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="406,37,372,32,373,27,407,32"/>
+<area shape="rect" id="Node000003" href="$gf__lua__metatable__gui_8c.html#aaddd2fbf4a1cfe789bf7743d6cded871" title=" " alt="" coords="212,55,372,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="407,62,373,67,372,62,406,57"/>
+<area shape="rect" id="Node000004" href="$gf__lua__metatable__gui_8c.html#ad82c204a1cd0be5f09632ba3ad0e66a8" title="Initialize GUI metatables." alt="" coords="5,63,164,88"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="198,78,164,78,164,73,198,73"/>
+</map>

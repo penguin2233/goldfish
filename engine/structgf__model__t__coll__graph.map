@@ -1,0 +1,11 @@
+<map id="gf_model_t" name="gf_model_t">
+<area shape="rect" id="Node000001" title="Model." alt="" coords="114,341,201,407"/>
+<area shape="rect" id="Node000002" href="$structgf__mesh__t.html" title="Mesh." alt="" coords="23,173,145,239"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,238,139,326,134,328,96,240"/>
+<area shape="rect" id="Node000003" href="$structgf__mesh__triangle__t.html" title="Triangle." alt="" coords="5,5,144,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="79,71,84,157,79,157,74,71"/>
+<area shape="rect" id="Node000005" href="$structgf__texture__t.html" title="Texture." alt="" coords="186,133,313,279"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="213,280,192,319,186,328,182,326,187,316,208,278"/>
+<area shape="rect" id="Node000006" href="$structgf__draw__driver__texture__t.html" title="Driver&#45;dependent texture." alt="" coords="169,5,346,71"/>
+<area shape="poly" id="edge4_Node000005_Node000006" title=" " alt="" coords="258,71,256,117,251,117,253,71"/>
+</map>

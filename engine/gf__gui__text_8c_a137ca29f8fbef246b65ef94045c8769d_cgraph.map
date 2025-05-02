@@ -1,0 +1,7 @@
+<map id="gf_gui_create_text" name="gf_gui_create_text">
+<area shape="rect" id="Node000001" title="Create text component." alt="" coords="5,5,148,31"/>
+<area shape="rect" id="Node000002" href="$gf__gui_8c.html#a757066a859b84758831fbfbd4c5d47ad" title="Initialize component." alt="" coords="196,5,387,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,15,182,15,182,21,148,21"/>
+<area shape="rect" id="Node000003" href="$gf__prop_8c.html#a06e57f947a7719725d1af7ad7b19c79a" title="Create property container." alt="" coords="435,5,553,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="387,15,421,15,421,21,387,21"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="gf_lua_call_graphic_text" name="gf_lua_call_graphic_text">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,185,56"/>
+<area shape="rect" id="Node000002" href="$gf__graphic__common_8c.html#aa9d5d5bfbadc5412807ff95adfe70a1e" title="Draw text." alt="" coords="233,31,356,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,41,220,41,220,46,186,46"/>
+<area shape="rect" id="Node000003" href="$gf__font_8c.html#adc4a1d10e49218c6383f5af6c4752fa1" title="Get glyph." alt="" coords="459,5,555,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="356,33,446,23,446,28,356,39"/>
+<area shape="rect" id="Node000004" href="$gf__graphic__common_8c.html#a3285370a495233cc7db4f25317cd5fb0" title="Draw rectangle with texture." alt="" coords="404,55,611,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="356,48,391,51,390,57,356,53"/>
+</map>

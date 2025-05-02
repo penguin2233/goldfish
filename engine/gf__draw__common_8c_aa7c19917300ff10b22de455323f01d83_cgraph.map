@@ -1,0 +1,7 @@
+<map id="gf_draw_destroy" name="gf_draw_destroy">
+<area shape="rect" id="Node000001" title="Destroy drawing interface." alt="" coords="5,31,136,56"/>
+<area shape="rect" id="Node000002" href="$gf__driver_8c.html#af8f5a8642f6e54ece2ab4b6389877b56" title="Destroy drawing driver." alt="" coords="193,5,368,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,33,179,28,180,33,137,38"/>
+<area shape="rect" id="Node000003" href="$gdi_2gf__draw_8c.html#a24822bbf6cda6c2cbe336d70116dfb25" title="Destroy platform&#45;dependent part of drawing driver." alt="" coords="184,55,377,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="137,48,170,52,170,57,136,53"/>
+</map>

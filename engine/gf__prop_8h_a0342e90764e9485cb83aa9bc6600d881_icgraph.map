@@ -1,0 +1,36 @@
+<map id="gf_prop_set_ptr" name="gf_prop_set_ptr">
+<area shape="rect" id="Node000001" title="Set void pointer to property." alt="" coords="669,125,792,150"/>
+<area shape="rect" id="Node000002" href="$gf__gui_8c.html#a2a2a1005ba3085ca46385c4938daff9a" title="Set component ID to property." alt="" coords="466,125,610,150"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="656,140,610,140,610,135,656,135"/>
+<area shape="rect" id="Node000009" href="$gf__lua__gui_8c.html#ad4aa2bdaa2b19cb28bb28ffe1bf1d25f" title=" " alt="" coords="455,335,621,361"/>
+<area shape="poly" id="edge5_Node000001_Node000009" title=" " alt="" coords="710,162,553,337,549,333,706,159"/>
+<area shape="rect" id="Node000012" href="$gf__lua__metatable__gui_8c.html#ad97847c3c966858ebbdef53e4c9f0297" title=" " alt="" coords="457,5,619,45"/>
+<area shape="poly" id="edge7_Node000001_Node000012" title=" " alt="" coords="702,118,664,89,620,61,593,48,595,43,623,56,667,85,705,114"/>
+<area shape="rect" id="Node000013" href="$gf__prop_8c.html#a467f871c48b3bd426609ca5b5baae9a1" title="Set floating number to property." alt="" coords="461,71,615,97"/>
+<area shape="poly" id="edge9_Node000001_Node000013" title=" " alt="" coords="670,123,584,99,585,94,671,118"/>
+<area shape="rect" id="Node000014" href="$gf__prop_8c.html#acfa33e8db4e55a67b53465789f1bb6ba" title="Set integer to property." alt="" coords="463,199,613,225"/>
+<area shape="poly" id="edge11_Node000001_Node000014" title=" " alt="" coords="685,158,573,202,571,197,683,153"/>
+<area shape="rect" id="Node000003" href="$gf__gui__window_8c.html#a0ac5e064cc4f520edd4bc72a4b2efe57" title="Create window component." alt="" coords="226,126,393,151"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="452,140,393,141,393,136,452,135"/>
+<area shape="rect" id="Node000004" href="$gf__lua__metatable__gui_8c.html#aaddd2fbf4a1cfe789bf7743d6cded871" title=" " alt="" coords="229,61,389,101"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="472,124,389,104,390,98,473,119"/>
+<area shape="rect" id="Node000005" href="$gf__lua__metatable__gui_8c.html#ad82c204a1cd0be5f09632ba3ad0e66a8" title="Initialize GUI metatables." alt="" coords="5,41,164,66"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="215,72,164,66,165,61,216,67"/>
+<area shape="rect" id="Node000010" href="$gf__lua__gui_8c.html#ad3a5a7c019f0de98e7c36ce3a2eea444" title="Create GoldFish GUI Lua interface." alt="" coords="212,423,407,449"/>
+<area shape="poly" id="edge6_Node000009_Node000010" title=" " alt="" coords="498,369,408,406,352,426,351,421,406,402,496,364"/>
+<area shape="poly" id="edge8_Node000012_Node000005" title=" " alt="" coords="443,34,164,51,164,46,443,28"/>
+<area shape="poly" id="edge10_Node000013_Node000004" title=" " alt="" coords="447,86,389,85,389,80,447,80"/>
+<area shape="poly" id="edge12_Node000014_Node000003" title=" " alt="" coords="493,197,406,165,366,154,367,149,407,160,495,192"/>
+<area shape="poly" id="edge20_Node000014_Node000004" title=" " alt="" coords="499,195,453,163,429,138,420,127,405,116,382,104,384,99,408,111,424,123,433,134,456,159,502,190"/>
+<area shape="rect" id="Node000015" href="$gf__gui_8c.html#afca0bddbe4a2ffefa86cf963cf0cc925" title="Destroy GUI component by ID." alt="" coords="241,199,378,225"/>
+<area shape="poly" id="edge13_Node000014_Node000015" title=" " alt="" coords="449,215,378,215,378,209,449,209"/>
+<area shape="rect" id="Node000020" href="$gf__gui_8c.html#a610faea7ed19c9f97c1bcf8c117c2869" title="Move component topmost." alt="" coords="226,273,393,298"/>
+<area shape="poly" id="edge15_Node000014_Node000020" title=" " alt="" coords="485,231,351,275,349,270,484,226"/>
+<area shape="rect" id="Node000021" href="$gf__gui_8c.html#a41f221ae3b2221553f49678f9434976c" title="Render GUI." alt="" coords="29,322,140,347"/>
+<area shape="poly" id="edge18_Node000014_Node000021" title=" " alt="" coords="521,238,465,309,434,341,408,361,370,374,330,381,290,382,250,380,176,367,119,350,121,345,178,361,250,374,290,377,329,375,368,369,405,356,431,337,461,305,517,234"/>
+<area shape="rect" id="Node000027" href="$gf__gui_8c.html#a00d49fc0d988734ce014629b13cc1252" title="Sort components." alt="" coords="222,322,397,347"/>
+<area shape="poly" id="edge19_Node000014_Node000027" title=" " alt="" coords="515,236,468,275,408,312,374,324,372,319,405,307,465,270,512,232"/>
+<area shape="poly" id="edge14_Node000015_Node000015" title=" " alt="" coords="350,190,339,181,309,178,285,180,273,185,270,190,277,197,273,201,265,191,269,181,284,175,309,173,341,177,353,186"/>
+<area shape="poly" id="edge16_Node000020_Node000020" title=" " alt="" coords="350,263,339,255,309,251,285,253,273,258,270,264,277,271,273,274,265,264,269,254,284,248,309,246,341,250,353,259"/>
+<area shape="poly" id="edge17_Node000020_Node000021" title=" " alt="" coords="238,304,141,325,140,320,237,298"/>
+</map>

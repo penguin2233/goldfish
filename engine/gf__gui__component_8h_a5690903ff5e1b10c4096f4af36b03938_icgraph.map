@@ -1,0 +1,5 @@
+<map id="gf_gui_create_button" name="gf_gui_create_button">
+<area shape="rect" id="Node000001" title="Create button component." alt="" coords="220,5,379,31"/>
+<area shape="rect" id="Node000002" href="$gf__gui__window_8c.html#a0ac5e064cc4f520edd4bc72a4b2efe57" title="Create window component." alt="" coords="5,5,172,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,21,172,21,172,15,206,15"/>
+</map>

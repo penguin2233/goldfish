@@ -1,0 +1,5 @@
+<map id="gf_texture_t" name="gf_texture_t">
+<area shape="rect" id="Node000001" title="Texture." alt="" coords="31,133,157,279"/>
+<area shape="rect" id="Node000002" href="$structgf__draw__driver__texture__t.html" title="Driver&#45;dependent texture." alt="" coords="5,5,183,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,71,97,117,91,117,91,71"/>
+</map>

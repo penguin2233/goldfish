@@ -1,0 +1,11 @@
+<map id="gf_lua_run" name="gf_lua_run">
+<area shape="rect" id="Node000001" title="Run Lua program." alt="" coords="5,55,96,80"/>
+<area shape="rect" id="Node000002" href="$gf__file_8c.html#a21009a41c9139fba583fd9034cc5f58d" title="Close file." alt="" coords="144,5,247,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,52,143,33,145,38,89,57"/>
+<area shape="rect" id="Node000003" href="$gf__file_8c.html#a75171efe7e9e4fb445ce99766db046bb" title="Open file." alt="" coords="145,55,246,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="96,65,131,65,131,70,96,70"/>
+<area shape="rect" id="Node000005" href="$gf__file_8c.html#a50307b5b19b902357320ed26d4f000fd" title="Read file." alt="" coords="146,104,245,129"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="89,78,145,97,143,102,88,83"/>
+<area shape="rect" id="Node000004" href="$gf__resource_8c.html#a5d9f291bd98d070914a7e252a97f94c0" title="Get data from resource." alt="" coords="295,55,421,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="246,65,281,65,281,70,246,70"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="include/gf_core.h" name="include/gf_core.h">
+<area shape="rect" id="Node000001" title="Core." alt="" coords="255,5,389,31"/>
+<area shape="rect" id="Node000002" href="$gf__assert_8h.html" title="Assert." alt="" coords="15,79,160,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="272,37,126,81,125,76,271,32"/>
+<area shape="rect" id="Node000004" href="$gf__core_8c.html" title=" " alt="" coords="146,152,250,177"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="281,39,252,57,227,80,216,98,209,118,202,152,196,151,204,116,211,96,223,77,249,52,278,34"/>
+<area shape="rect" id="Node000005" href="$gf__draw__common_8c.html" title=" " alt="" coords="236,79,408,104"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="325,44,325,79,319,79,319,44"/>
+<area shape="rect" id="Node000006" href="$gf__log_8c.html" title=" " alt="" coords="433,79,529,104"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="361,34,456,76,454,81,359,39"/>
+<area shape="rect" id="Node000007" href="$gf__resource_8c.html" title=" " alt="" coords="553,79,685,104"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="384,31,572,76,571,81,382,36"/>
+<area shape="rect" id="Node000003" href="$gf__assert_8c.html" title=" " alt="" coords="5,152,121,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="82,118,70,153,65,151,77,116"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="118,109,181,150,178,154,115,114"/>
+</map>

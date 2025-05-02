@@ -1,0 +1,25 @@
+<map id="include/gf_draw_platform.h" name="include/gf_draw_platform.h">
+<area shape="rect" id="Node000001" title="Platform&#45;dependent part of drawing driver." alt="" coords="164,5,364,31"/>
+<area shape="rect" id="Node000002" href="$gf__pre_8h.html" title="Required headers before anything." alt="" coords="191,372,265,397"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,33,121,49,66,75,42,92,24,112,12,136,8,164,8,239,13,267,25,291,44,311,68,329,123,355,178,371,176,376,121,360,65,333,40,315,21,294,7,269,3,240,3,163,7,134,20,109,39,88,63,70,120,44,179,28"/>
+<area shape="rect" id="Node000004" href="$gf__macro_8h.html" title="Macro." alt="" coords="266,299,361,324"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="359,28,401,46,420,60,436,77,449,106,450,136,441,167,426,197,383,251,341,291,337,287,379,247,421,194,436,165,444,136,443,107,431,80,416,64,398,51,357,33"/>
+<area shape="rect" id="Node000005" href="$draw__platform_8h.html" title="Type definitions related to platform&#45;dependent part of drawing driver." alt="" coords="43,152,226,177"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="255,33,156,143,152,140,251,29"/>
+<area shape="rect" id="Node000006" href="$core_8h.html" title="Type definitions related to core." alt="" coords="213,225,328,251"/>
+<area shape="poly" id="edge16_Node000001_Node000006" title=" " alt="" coords="267,31,273,211,267,211,262,31"/>
+<area shape="rect" id="Node000011" href="$draw_8h.html" title="Type definitions related to drawing interface." alt="" coords="302,79,421,104"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="281,29,336,68,333,72,278,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="181,445,275,471"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="231,398,231,432,225,432,225,398"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="301,326,254,365,251,361,298,322"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="142,177,220,358,215,360,137,179"/>
+<area shape="poly" id="edge7_Node000005_Node000004" title=" " alt="" coords="144,176,168,211,203,249,237,272,273,291,270,295,235,277,200,253,164,214,139,179"/>
+<area shape="poly" id="edge8_Node000005_Node000006" title=" " alt="" coords="158,175,238,217,235,221,155,180"/>
+<area shape="poly" id="edge9_Node000006_Node000002" title=" " alt="" coords="270,252,238,359,233,358,265,250"/>
+<area shape="poly" id="edge10_Node000006_Node000004" title=" " alt="" coords="280,250,302,286,297,288,275,252"/>
+<area shape="poly" id="edge12_Node000011_Node000002" title=" " alt="" coords="369,103,383,143,396,201,399,233,397,265,390,297,376,326,356,346,332,362,280,379,278,374,329,357,353,342,371,322,385,295,392,264,394,233,391,201,378,144,364,105"/>
+<area shape="poly" id="edge13_Node000011_Node000004" title=" " alt="" coords="364,104,358,167,343,251,328,287,323,286,337,250,353,167,358,104"/>
+<area shape="poly" id="edge14_Node000011_Node000005" title=" " alt="" coords="326,107,185,150,184,145,324,101"/>
+<area shape="poly" id="edge15_Node000011_Node000006" title=" " alt="" coords="356,106,287,215,283,212,352,103"/>
+</map>

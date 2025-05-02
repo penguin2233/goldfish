@@ -1,0 +1,7 @@
+<map id="gf_engine_shutdown" name="gf_engine_shutdown">
+<area shape="rect" id="Node000001" title="Start engine shutdown." alt="" coords="5,31,161,56"/>
+<area shape="rect" id="Node000002" href="$gf__client_8c.html#abf0adb933d1fc4b708760878745e8a1e" title="Start client shutdown." alt="" coords="212,5,360,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,31,198,26,199,32,162,36"/>
+<area shape="rect" id="Node000003" href="$gf__server_8c.html#a57e10ab1ec7f3353f7fd1247edd5bd0d" title="Start server shutdown." alt="" coords="209,55,363,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,50,196,54,195,59,161,55"/>
+</map>

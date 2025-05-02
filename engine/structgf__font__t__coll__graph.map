@@ -1,0 +1,10 @@
+<map id="gf_font_t" name="gf_font_t">
+<area shape="rect" id="Node000001" title="Font." alt="" coords="142,381,214,447"/>
+<area shape="rect" id="Node000002" href="$structgf__font__glyph__t.html" title="Glyph." alt="" coords="67,213,182,319"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="146,318,163,365,158,367,141,320"/>
+<area shape="rect" id="Node000003" href="$structgf__texture__t.html" title="Texture." alt="" coords="5,5,132,151"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="66,150,73,189,76,198,71,200,67,190,61,151"/>
+<area shape="rect" id="Node000005" href="$structgf__font__bbox__t.html" title="Bounding box." alt="" coords="165,15,276,141"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="230,141,232,244,226,302,214,358,210,368,205,366,209,357,221,301,226,244,225,141"/>
+<area shape="poly" id="edge3_Node000002_Node000005" title=" " alt="" coords="184,142,166,176,154,199,150,197,161,173,180,139"/>
+</map>

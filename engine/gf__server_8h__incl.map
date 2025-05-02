@@ -1,0 +1,25 @@
+<map id="include/gf_server.h" name="include/gf_server.h">
+<area shape="rect" id="Node000001" title="Client interface." alt="" coords="86,5,231,31"/>
+<area shape="rect" id="Node000002" href="$gf__pre_8h.html" title="Required headers before anything." alt="" coords="155,372,229,397"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,33,93,52,53,81,35,99,21,118,11,140,8,164,8,239,11,263,21,284,36,304,54,320,98,347,143,366,140,371,96,352,51,325,32,307,17,287,6,265,3,240,3,163,6,138,16,115,31,95,49,77,91,48,129,28"/>
+<area shape="rect" id="Node000004" href="$gf__macro_8h.html" title="Macro." alt="" coords="145,299,239,324"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="155,32,146,53,139,79,139,104,147,155,160,205,186,285,181,287,155,207,142,156,133,104,133,78,141,52,150,30"/>
+<area shape="rect" id="Node000005" href="$server_8h.html" title="Type definitions related to server interface." alt="" coords="147,79,274,104"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="169,29,196,66,192,69,165,33"/>
+<area shape="rect" id="Node000006" href="$core_8h.html" title="Type definitions related to core." alt="" coords="319,225,433,251"/>
+<area shape="poly" id="edge16_Node000001_Node000006" title=" " alt="" coords="206,28,252,44,303,69,349,104,368,126,384,151,390,182,386,212,381,212,385,182,379,153,364,129,345,108,300,74,250,49,204,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="145,445,239,471"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="195,398,195,432,189,432,189,398"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="195,324,195,358,189,358,189,324"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="204,106,176,153,149,224,136,299,134,312,136,323,149,344,166,362,163,365,145,347,131,325,129,312,131,298,144,223,171,151,200,103"/>
+<area shape="poly" id="edge7_Node000005_Node000004" title=" " alt="" coords="206,106,194,127,185,153,181,188,181,224,189,285,184,285,176,224,175,188,180,151,189,125,201,103"/>
+<area shape="poly" id="edge8_Node000005_Node000006" title=" " alt="" coords="248,102,291,120,313,133,333,150,352,180,364,211,359,213,347,183,329,154,310,138,289,125,246,107"/>
+<area shape="rect" id="Node000027" href="$physics_8h.html" title="Type definitions related to physics interface." alt="" coords="195,152,331,177"/>
+<area shape="poly" id="edge12_Node000005_Node000027" title=" " alt="" coords="221,103,248,139,244,142,217,106"/>
+<area shape="poly" id="edge9_Node000006_Node000002" title=" " alt="" coords="369,253,339,287,298,326,264,349,230,368,228,363,261,345,294,322,335,283,365,249"/>
+<area shape="poly" id="edge10_Node000006_Node000004" title=" " alt="" coords="347,253,236,296,234,291,345,248"/>
+<area shape="poly" id="edge11_Node000006_Node000005" title=" " alt="" coords="379,225,374,190,365,171,353,154,319,128,279,111,282,106,321,124,357,150,370,168,379,189,385,224"/>
+<area shape="poly" id="edge13_Node000027_Node000002" title=" " alt="" coords="267,177,271,242,267,284,254,325,240,347,222,365,218,362,236,344,250,323,262,283,266,242,262,178"/>
+<area shape="poly" id="edge14_Node000027_Node000004" title=" " alt="" coords="259,179,206,287,201,285,254,177"/>
+<area shape="poly" id="edge15_Node000027_Node000006" title=" " alt="" coords="282,175,348,216,345,220,279,180"/>
+</map>

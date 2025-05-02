@@ -1,0 +1,9 @@
+<map id="gf_gui_set_text" name="gf_gui_set_text">
+<area shape="rect" id="Node000001" title="Set text." alt="" coords="427,35,549,60"/>
+<area shape="rect" id="Node000002" href="$gf__gui__window_8c.html#a0ac5e064cc4f520edd4bc72a4b2efe57" title="Create window component." alt="" coords="212,5,379,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="413,39,379,33,379,28,414,33"/>
+<area shape="rect" id="Node000003" href="$gf__lua__metatable__gui_8c.html#a8daa2403396919910c9a89229958a437" title=" " alt="" coords="215,55,375,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="414,61,376,66,375,61,413,55"/>
+<area shape="rect" id="Node000004" href="$gf__lua__metatable__gui_8c.html#ad82c204a1cd0be5f09632ba3ad0e66a8" title="Initialize GUI metatables." alt="" coords="5,63,164,88"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="201,78,164,78,164,73,201,73"/>
+</map>

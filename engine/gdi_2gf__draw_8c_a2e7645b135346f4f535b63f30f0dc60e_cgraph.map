@@ -1,0 +1,7 @@
+<map id="gf_draw_platform_proc" name="gf_draw_platform_proc">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,177,31"/>
+<area shape="rect" id="Node000002" href="$gf__draw__common_8c.html#af1d6ba858a1cee357f8626501540e8bf" title="Do stuffs required on resizing window." alt="" coords="225,5,359,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,15,211,15,211,21,178,21"/>
+<area shape="rect" id="Node000003" href="$gf__driver_8c.html#af0a260e2df4036c09bebe329c821fc19" title="Do stuffs required on resizing window." alt="" coords="407,5,585,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="359,15,393,15,393,21,359,21"/>
+</map>

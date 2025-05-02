@@ -1,0 +1,20 @@
+<map id="gf_draw_platform_step" name="gf_draw_platform_step">
+<area shape="rect" id="Node000001" title="Do platform&#45;dependent step." alt="" coords="5,68,177,93"/>
+<area shape="rect" id="Node000002" href="$gf__driver_8c.html#a646a68acd6e610379fc6ef5511e8c5d9" title="Called after gf_draw_frame." alt="" coords="231,19,387,44"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,65,239,44,240,50,149,71"/>
+<area shape="rect" id="Node000003" href="$gf__driver_8c.html#a5d2d7820e9dabe9f558d3f5a45b0ea60" title="Called before gf_draw_frame." alt="" coords="225,68,393,93"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="178,78,212,78,212,83,178,83"/>
+<area shape="rect" id="Node000011" href="$gf__draw__common_8c.html#a4887fe11d8dfe55cf784e07b382b046a" title="Draw frame (common part)" alt="" coords="249,129,369,155"/>
+<area shape="poly" id="edge6_Node000001_Node000011" title=" " alt="" coords="138,91,251,123,250,128,137,96"/>
+<area shape="rect" id="Node000004" href="$gf__driver_8c.html#af0a260e2df4036c09bebe329c821fc19" title="Do stuffs required on resizing window." alt="" coords="441,5,620,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="352,65,441,39,468,32,469,37,442,45,354,70"/>
+<area shape="rect" id="Node000007" href="$gf__graphic_8c.html#a74f8bf7e2fc346f7d85ecfcea061f3fb" title="Clear the screen." alt="" coords="466,104,595,129"/>
+<area shape="poly" id="edge4_Node000003_Node000007" title=" " alt="" coords="388,91,453,101,452,107,387,96"/>
+<area shape="rect" id="Node000008" href="$gf__graphic_8c.html#af8285b506b90125960bf01b427a9a883" title="Set camera." alt="" coords="444,55,617,80"/>
+<area shape="poly" id="edge5_Node000003_Node000008" title=" " alt="" coords="393,73,430,71,430,76,393,78"/>
+<area shape="poly" id="edge7_Node000011_Node000007" title=" " alt="" coords="370,132,452,123,453,128,370,138"/>
+<area shape="rect" id="Node000012" href="$gf__gui_8c.html#a41f221ae3b2221553f49678f9434976c" title="Render GUI." alt="" coords="475,153,586,179"/>
+<area shape="poly" id="edge8_Node000011_Node000012" title=" " alt="" coords="370,146,462,156,461,161,370,151"/>
+<area shape="rect" id="Node000029" href="$gf__lua_8c.html#a9aead1287d2426883127d256b6b649d7" title="Run a single step for Lua interface." alt="" coords="482,203,579,228"/>
+<area shape="poly" id="edge9_Node000011_Node000029" title=" " alt="" coords="344,152,442,187,471,196,469,201,440,193,342,157"/>
+</map>

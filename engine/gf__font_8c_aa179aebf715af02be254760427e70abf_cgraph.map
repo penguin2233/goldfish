@@ -1,0 +1,7 @@
+<map id="gf_font_parse_line" name="gf_font_parse_line">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,13,148,38"/>
+<area shape="rect" id="Node000002" href="$gf__texture_8c.html#a6cd0c41bfc9dbe140bb52f39aaa14080" title="Create texture." alt="" coords="196,13,333,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,23,182,23,182,28,148,28"/>
+<area shape="rect" id="Node000003" href="$gf__driver_8c.html#a034ba7f18e4d2c0395d4116182c47785" title="Register driver&#45;dependent texture." alt="" coords="381,5,557,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="334,23,368,23,368,28,334,28"/>
+</map>

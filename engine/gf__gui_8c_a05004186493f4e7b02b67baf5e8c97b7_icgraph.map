@@ -1,0 +1,9 @@
+<map id="gf_gui_get_prop_id" name="gf_gui_get_prop_id">
+<area shape="rect" id="Node000001" title="Get component ID from property." alt="" coords="428,35,573,60"/>
+<area shape="rect" id="Node000002" href="$gf__gui__window_8c.html#a5f3d8d400fb67a9840d8d94a5869bb3c" title=" " alt="" coords="212,5,380,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="414,38,380,33,381,27,414,32"/>
+<area shape="rect" id="Node000003" href="$gf__lua__metatable__gui_8c.html#aaddd2fbf4a1cfe789bf7743d6cded871" title=" " alt="" coords="216,55,376,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="414,62,376,67,376,62,414,57"/>
+<area shape="rect" id="Node000004" href="$gf__lua__metatable__gui_8c.html#ad82c204a1cd0be5f09632ba3ad0e66a8" title="Initialize GUI metatables." alt="" coords="5,63,164,88"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="202,78,164,78,164,73,202,73"/>
+</map>

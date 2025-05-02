@@ -1,0 +1,5 @@
+<map id="gf_math_nearest_2pow" name="gf_math_nearest_2pow">
+<area shape="rect" id="Node000001" title="Get nearest 2^n." alt="" coords="5,5,180,31"/>
+<area shape="rect" id="Node000002" href="$gf__math_8c.html#a018423cb05adf480f9c3f28f304d1c47" title="Calculate log2(x)" alt="" coords="228,5,339,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,15,214,15,214,21,180,21"/>
+</map>

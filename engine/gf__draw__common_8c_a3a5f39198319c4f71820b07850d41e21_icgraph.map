@@ -1,0 +1,7 @@
+<map id="gf_draw_get_fps" name="gf_draw_get_fps">
+<area shape="rect" id="Node000001" title="Get FPS." alt="" coords="388,5,517,31"/>
+<area shape="rect" id="Node000002" href="$gf__lua_8c.html#aafd7a225eca6f55656c739ab91753173" title=" " alt="" coords="221,5,340,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="374,21,340,21,340,15,374,15"/>
+<area shape="rect" id="Node000003" href="$gf__lua_8c.html#ac25650b30652d8cb8c65252229645360" title=" " alt="" coords="5,5,173,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="208,21,174,21,174,15,208,15"/>
+</map>

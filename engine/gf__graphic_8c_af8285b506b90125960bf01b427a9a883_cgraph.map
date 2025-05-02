@@ -1,0 +1,7 @@
+<map id="gf_graphic_set_camera" name="gf_graphic_set_camera">
+<area shape="rect" id="Node000001" title="Set camera." alt="" coords="5,31,179,56"/>
+<area shape="rect" id="Node000002" href="$gf__math_8c.html#a394ebd35e2cddf28c86a45dad759fbee" title="Multiply vector by vector." alt="" coords="232,5,369,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,30,218,25,219,31,179,35"/>
+<area shape="rect" id="Node000003" href="$gf__math_8c.html#a3bd2afc9ff0e67e60afef9fe82553726" title="Normalize vector." alt="" coords="227,55,375,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="179,51,213,55,212,60,179,56"/>
+</map>

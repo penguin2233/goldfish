@@ -1,0 +1,21 @@
+<map id="include/gf_physics.h" name="include/gf_physics.h">
+<area shape="rect" id="Node000001" title="Physics interface." alt="" coords="68,5,223,31"/>
+<area shape="rect" id="Node000002" href="$gf__pre_8h.html" title="Required headers before anything." alt="" coords="92,299,167,324"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,33,100,52,67,80,36,114,13,153,8,173,11,193,19,212,31,231,64,264,99,289,96,293,61,268,27,234,14,215,5,194,3,173,8,151,32,110,64,76,97,48,125,29"/>
+<area shape="rect" id="Node000004" href="$gf__macro_8h.html" title="Macro." alt="" coords="123,225,218,251"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="149,31,170,211,165,211,144,31"/>
+<area shape="rect" id="Node000005" href="$physics_8h.html" title="Type definitions related to physics interface." alt="" coords="209,79,345,104"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="168,28,245,70,242,74,165,33"/>
+<area shape="rect" id="Node000007" href="$core_8h.html" title="Type definitions related to core." alt="" coords="23,152,137,177"/>
+<area shape="poly" id="edge12_Node000001_Node000007" title=" " alt="" coords="142,32,93,141,88,138,137,30"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="83,372,176,397"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="132,324,132,358,127,358,127,324"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="166,252,145,288,141,285,161,250"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="279,105,269,171,255,214,233,252,206,277,175,295,173,290,203,273,228,249,250,211,264,170,274,104"/>
+<area shape="poly" id="edge7_Node000005_Node000004" title=" " alt="" coords="271,106,189,216,185,213,266,103"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="314,152,401,177"/>
+<area shape="poly" id="edge8_Node000005_Node000006" title=" " alt="" coords="292,102,336,141,332,145,288,106"/>
+<area shape="poly" id="edge9_Node000005_Node000007" title=" " alt="" coords="246,107,126,150,124,145,245,102"/>
+<area shape="poly" id="edge10_Node000007_Node000002" title=" " alt="" coords="86,177,123,285,118,287,81,179"/>
+<area shape="poly" id="edge11_Node000007_Node000004" title=" " alt="" coords="96,175,146,214,143,219,93,179"/>
+</map>

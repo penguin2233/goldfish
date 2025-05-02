@@ -1,0 +1,11 @@
+<map id="gf_server_shutdown" name="gf_server_shutdown">
+<area shape="rect" id="Node000001" title="Start server shutdown." alt="" coords="400,31,553,56"/>
+<area shape="rect" id="Node000002" href="$gf__core_8c.html#a00e2e66703d1f28b2540fe731d8cd8e7" title="Start engine shutdown." alt="" coords="196,5,352,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="386,35,352,30,353,25,387,29"/>
+<area shape="rect" id="Node000003" href="$gf__server_8c.html#afedff111b1691c5973e264ce4f6a3787" title="Destroy server interface." alt="" coords="205,55,343,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="387,57,344,62,343,56,386,51"/>
+<area shape="rect" id="Node000004" href="$gf__core_8c.html#a978d9c52b1d1098b5fc2f3e869036b64" title="Destroy engine instance." alt="" coords="5,29,148,55"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="191,59,148,54,149,49,191,54"/>
+<area shape="rect" id="Node000006" href="$gf__server_8c.html#a861aac514f048d33ce16e3209e125df5" title="Create server interface." alt="" coords="11,79,142,104"/>
+<area shape="poly" id="edge4_Node000003_Node000006" title=" " alt="" coords="191,80,143,86,142,81,191,75"/>
+</map>

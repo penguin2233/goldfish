@@ -1,0 +1,12 @@
+<map id="gf_gui_calc_xywh" name="gf_gui_calc_xywh">
+<area shape="rect" id="Node000001" title="Calculate component X/Y/width/height." alt="" coords="5,55,143,80"/>
+<area shape="rect" id="Node000002" href="$gf__gui_8c.html#a2afb67331b3c6b3405299c2b55625e0c" title=" " alt="" coords="191,55,371,80"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,65,177,65,177,70,143,70"/>
+<area shape="poly" id="edge4_Node000002_Node000002" title=" " alt="" coords="247,56,240,46,243,36,257,30,281,28,309,32,321,41,317,45,307,37,281,33,259,35,247,40,245,46,251,53"/>
+<area shape="rect" id="Node000003" href="$gf__graphic_8c.html#a63ff697af8cf405a5fab29b0bd893954" title="Pop clipping region." alt="" coords="423,5,573,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="337,52,427,31,429,36,338,57"/>
+<area shape="rect" id="Node000004" href="$gf__graphic_8c.html#ac4482ad3b1baa754820a496f84d66c3a" title="Push clipping region." alt="" coords="419,55,577,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="371,65,405,65,405,70,371,70"/>
+<area shape="rect" id="Node000005" href="$gf__prop_8c.html#aa37db41ede3bca25146697beb55ce290" title="Get integer from property." alt="" coords="422,104,574,129"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="338,77,429,98,427,104,337,83"/>
+</map>

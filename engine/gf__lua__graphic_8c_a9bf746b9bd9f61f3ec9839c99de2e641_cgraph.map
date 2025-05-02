@@ -1,0 +1,7 @@
+<map id="gf_lua_call_graphic_text_width" name="gf_lua_call_graphic_text_width">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,152,45"/>
+<area shape="rect" id="Node000002" href="$gf__graphic__common_8c.html#a1ce50172aa1749c26af704601fc131ef" title="Calculate text width." alt="" coords="200,13,367,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,23,186,23,186,28,152,28"/>
+<area shape="rect" id="Node000003" href="$gf__font_8c.html#adc4a1d10e49218c6383f5af6c4752fa1" title="Get glyph." alt="" coords="415,13,511,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="367,23,401,23,401,28,367,28"/>
+</map>

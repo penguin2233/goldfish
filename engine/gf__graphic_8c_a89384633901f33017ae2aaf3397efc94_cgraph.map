@@ -1,0 +1,9 @@
+<map id="gf_graphic_fill_polygon_arr" name="gf_graphic_fill_polygon_arr">
+<area shape="rect" id="Node000001" title="Draw polygon." alt="" coords="5,70,203,95"/>
+<area shape="rect" id="Node000002" href="$gf__driver_8c.html#a2740a2bb536d05c08ca019e66be4b6c6" title="Set color." alt="" coords="255,5,402,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,67,241,45,243,50,155,73"/>
+<area shape="rect" id="Node000003" href="$gf__graphic_8c.html#ad35db673e213edbadbfd938138c88a4c" title="Start 2D mode." alt="" coords="251,70,407,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="203,80,237,80,237,85,203,85"/>
+<area shape="rect" id="Node000004" href="$gf__graphic_8c.html#acd5d3047cf76b63b2d1161e4e880f446" title="End 2D mode." alt="" coords="257,119,401,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="163,93,257,114,256,119,162,98"/>
+</map>

@@ -1,0 +1,27 @@
+<map id="gf_draw_frame" name="gf_draw_frame">
+<area shape="rect" id="Node000001" title="Draw frame (common part)" alt="" coords="5,191,125,216"/>
+<area shape="rect" id="Node000002" href="$gf__graphic_8c.html#a74f8bf7e2fc346f7d85ecfcea061f3fb" title="Clear the screen." alt="" coords="173,141,303,167"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,188,179,168,180,173,111,193"/>
+<area shape="rect" id="Node000003" href="$gf__gui_8c.html#a41f221ae3b2221553f49678f9434976c" title="Render GUI." alt="" coords="183,191,293,216"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="126,201,169,201,169,206,126,206"/>
+<area shape="rect" id="Node000020" href="$gf__lua_8c.html#a9aead1287d2426883127d256b6b649d7" title="Run a single step for Lua interface." alt="" coords="189,240,287,265"/>
+<area shape="poly" id="edge13_Node000001_Node000020" title=" " alt="" coords="111,213,180,234,179,239,110,219"/>
+<area shape="rect" id="Node000004" href="$gf__graphic_8c.html#a63ff697af8cf405a5fab29b0bd893954" title="Pop clipping region." alt="" coords="361,5,512,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="284,188,301,176,313,159,320,143,323,109,327,75,335,57,349,40,354,36,357,40,353,44,339,60,332,76,328,109,325,144,318,162,305,180,287,193"/>
+<area shape="rect" id="Node000005" href="$gf__graphic_8c.html#ac4482ad3b1baa754820a496f84d66c3a" title="Push clipping region." alt="" coords="357,55,516,80"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="282,188,301,176,317,155,324,133,331,111,349,89,356,84,359,89,352,93,336,114,329,135,322,157,304,180,285,193"/>
+<area shape="rect" id="Node000006" href="$gf__graphic__common_8c.html#a8ff780a4bcadc008355699101d2a42cc" title="Draw polygon." alt="" coords="351,104,523,129"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="275,188,301,176,325,157,349,138,365,132,367,136,352,143,328,161,304,180,277,193"/>
+<area shape="rect" id="Node000011" href="$gf__gui_8c.html#a12905d9750d06d3440efc96eab4574e9" title="Calculate component X/Y/width/height." alt="" coords="368,153,505,179"/>
+<area shape="poly" id="edge6_Node000003_Node000011" title=" " alt="" coords="293,190,355,179,356,184,294,196"/>
+<area shape="rect" id="Node000015" href="$gf__gui_8c.html#a610faea7ed19c9f97c1bcf8c117c2869" title="Move component topmost." alt="" coords="353,227,520,252"/>
+<area shape="poly" id="edge7_Node000003_Node000015" title=" " alt="" coords="294,211,353,222,352,227,293,216"/>
+<area shape="rect" id="Node000017" href="$gf__prop_8c.html#acfa33e8db4e55a67b53465789f1bb6ba" title="Set integer to property." alt="" coords="571,252,721,277"/>
+<area shape="poly" id="edge12_Node000003_Node000017" title=" " alt="" coords="279,214,304,225,328,245,337,254,352,261,403,273,456,279,508,279,556,276,557,281,509,284,456,284,402,279,350,266,334,258,324,249,301,230,277,219"/>
+<area shape="rect" id="Node000019" href="$gf__prop_8c.html#a17c37ff36ee533fcd95a11a4e4974f08" title="Delete property." alt="" coords="377,328,496,353"/>
+<area shape="poly" id="edge10_Node000003_Node000019" title=" " alt="" coords="286,214,304,225,322,246,329,267,336,287,352,307,374,320,371,325,349,311,332,290,324,269,317,249,301,229,283,218"/>
+<area shape="rect" id="Node000013" href="$gf__prop_8c.html#aa37db41ede3bca25146697beb55ce290" title="Get integer from property." alt="" coords="361,377,513,403"/>
+<area shape="poly" id="edge11_Node000003_Node000013" title=" " alt="" coords="289,214,305,225,318,243,325,261,329,296,332,330,339,346,353,363,359,368,356,373,349,367,335,349,327,332,323,297,320,263,313,246,301,229,286,218"/>
+<area shape="poly" id="edge8_Node000015_Node000015" title=" " alt="" coords="404,228,397,218,401,208,414,202,437,200,464,204,475,212,472,217,462,208,437,205,416,207,405,212,402,218,408,225"/>
+<area shape="poly" id="edge9_Node000015_Node000017" title=" " alt="" coords="521,247,557,251,556,257,520,252"/>
+</map>

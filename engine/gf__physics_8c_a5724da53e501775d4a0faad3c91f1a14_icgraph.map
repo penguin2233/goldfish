@@ -1,0 +1,7 @@
+<map id="gf_physics_end" name="gf_physics_end">
+<area shape="rect" id="Node000001" title="Cleanup physics interface." alt="" coords="333,5,456,31"/>
+<area shape="rect" id="Node000002" href="$gf__server_8c.html#a9f44e37cb5becfe321b352f8801fe22e" title="Cleanup server interface." alt="" coords="171,5,285,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="319,21,286,21,286,15,319,15"/>
+<area shape="rect" id="Node000003" href="$gf__core_8c.html#abae48921e84f92d590608745536a9ffc" title="Cleanup engine." alt="" coords="5,5,123,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="157,21,123,21,123,15,157,15"/>
+</map>

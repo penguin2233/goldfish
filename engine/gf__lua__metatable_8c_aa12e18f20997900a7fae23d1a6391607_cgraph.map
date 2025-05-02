@@ -1,0 +1,31 @@
+<map id="gf_lua_meta_init" name="gf_lua_meta_init">
+<area shape="rect" id="Node000001" title="Initialize metatables." alt="" coords="5,264,136,289"/>
+<area shape="rect" id="Node000002" href="$gf__lua__metatable__audio_8c.html#af640c7cc7734fdd51132ccd8a539b741" title="Initialize Audio metatables." alt="" coords="184,127,359,152"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,262,238,158,241,162,92,266"/>
+<area shape="rect" id="Node000012" href="$gf__lua__metatable__font_8c.html#abf28aaaea4dbe15c258018e8361c0545" title="Initialize Font metatables." alt="" coords="189,264,353,289"/>
+<area shape="poly" id="edge6_Node000001_Node000012" title=" " alt="" coords="136,274,175,274,175,279,136,279"/>
+<area shape="rect" id="Node000013" href="$gf__lua__metatable__gui_8c.html#ad82c204a1cd0be5f09632ba3ad0e66a8" title="Initialize GUI metatables." alt="" coords="192,401,351,427"/>
+<area shape="poly" id="edge7_Node000001_Node000013" title=" " alt="" coords="92,287,241,391,238,395,89,292"/>
+<area shape="rect" id="Node000003" href="$gf__lua__metatable__audio_8c.html#ae7832e4227620202272a90286df3889f" title=" " alt="" coords="407,5,619,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="285,124,336,83,370,60,406,41,428,32,430,37,408,46,372,65,339,88,288,128"/>
+<area shape="rect" id="Node000005" href="$gf__lua__metatable__audio_8c.html#a013ad64899ae36b60549f12afd8b5e2d" title=" " alt="" coords="425,55,601,95"/>
+<area shape="poly" id="edge3_Node000002_Node000005" title=" " alt="" coords="320,124,423,96,424,102,321,129"/>
+<area shape="rect" id="Node000007" href="$gf__lua__metatable__audio_8c.html#ac03027938e38b2c90a4858b38f5abb60" title=" " alt="" coords="425,119,601,159"/>
+<area shape="poly" id="edge4_Node000002_Node000007" title=" " alt="" coords="359,137,411,137,411,142,359,142"/>
+<area shape="rect" id="Node000009" href="$gf__lua__metatable__audio_8c.html#a0dafdb4b1923c8e76885233a9b18ad0a" title=" " alt="" coords="407,184,618,209"/>
+<area shape="poly" id="edge5_Node000002_Node000009" title=" " alt="" coords="326,149,446,178,444,183,325,155"/>
+<area shape="rect" id="Node000014" href="$gf__lua__metatable__gui_8c.html#ad97847c3c966858ebbdef53e4c9f0297" title=" " alt="" coords="431,234,594,274"/>
+<area shape="poly" id="edge8_Node000013_Node000014" title=" " alt="" coords="281,399,330,344,366,312,405,284,418,277,420,282,408,288,369,316,334,348,285,403"/>
+<area shape="rect" id="Node000018" href="$gf__lua__metatable__gui_8c.html#aa4dd694433fcb823fad5aa4532d616d4" title=" " alt="" coords="433,298,593,338"/>
+<area shape="poly" id="edge9_Node000013_Node000018" title=" " alt="" coords="296,399,346,374,406,348,427,340,429,345,408,352,348,379,298,403"/>
+<area shape="rect" id="Node000023" href="$gf__lua__metatable__gui_8c.html#a9825b6f3860ae7802e23ddd02eaf8ea7" title=" " alt="" coords="433,362,593,402"/>
+<area shape="poly" id="edge10_Node000013_Node000023" title=" " alt="" coords="350,401,418,392,419,397,351,406"/>
+<area shape="rect" id="Node000029" href="$gf__lua__metatable__gui_8c.html#a59db0b85f023f24bda567439aa3eb044" title=" " alt="" coords="433,426,593,466"/>
+<area shape="poly" id="edge11_Node000013_Node000029" title=" " alt="" coords="351,422,419,431,418,436,350,427"/>
+<area shape="rect" id="Node000033" href="$gf__lua__metatable__gui_8c.html#ae8ccb7d94f4c50cf3a907040c4fa765f" title=" " alt="" coords="433,490,593,530"/>
+<area shape="poly" id="edge12_Node000013_Node000033" title=" " alt="" coords="298,425,348,449,408,476,429,483,427,488,406,480,346,454,296,429"/>
+<area shape="rect" id="Node000037" href="$gf__lua__metatable__gui_8c.html#aaddd2fbf4a1cfe789bf7743d6cded871" title=" " alt="" coords="433,554,593,594"/>
+<area shape="poly" id="edge13_Node000013_Node000037" title=" " alt="" coords="285,425,334,480,369,512,408,540,421,547,419,551,405,544,366,516,330,484,281,429"/>
+<area shape="rect" id="Node000042" href="$gf__lua__metatable__gui_8c.html#a8daa2403396919910c9a89229958a437" title=" " alt="" coords="433,618,593,658"/>
+<area shape="poly" id="edge14_Node000013_Node000042" title=" " alt="" coords="280,426,297,461,325,509,362,560,408,604,422,612,419,617,405,608,358,564,320,512,293,464,276,428"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="gf_graphic_text_width" name="gf_graphic_text_width">
+<area shape="rect" id="Node000001" title="Calculate text width." alt="" coords="5,5,172,31"/>
+<area shape="rect" id="Node000002" href="$gf__font_8c.html#adc4a1d10e49218c6383f5af6c4752fa1" title="Get glyph." alt="" coords="220,5,316,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,15,206,15,206,21,172,21"/>
+</map>

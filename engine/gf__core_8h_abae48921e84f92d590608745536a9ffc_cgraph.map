@@ -1,0 +1,11 @@
+<map id="gf_engine_end" name="gf_engine_end">
+<area shape="rect" id="Node000001" title="Cleanup engine." alt="" coords="5,31,123,56"/>
+<area shape="rect" id="Node000002" href="$gf__client_8c.html#a48fc64674f40797eac53f689e2ba5bae" title="Cleanup client interface." alt="" coords="173,5,283,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,32,160,26,160,31,123,37"/>
+<area shape="rect" id="Node000005" href="$gf__server_8c.html#a9f44e37cb5becfe321b352f8801fe22e" title="Cleanup server interface." alt="" coords="171,55,285,80"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="123,49,158,54,157,60,122,55"/>
+<area shape="rect" id="Node000003" href="$gf__draw__common_8c.html#a11d157bf565b4010f1350dd5329fa4a4" title="Cleanup drawing stuffs." alt="" coords="342,5,447,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="283,15,328,15,328,21,283,21"/>
+<area shape="rect" id="Node000006" href="$gf__physics_8c.html#a5724da53e501775d4a0faad3c91f1a14" title="Cleanup physics interface." alt="" coords="333,55,456,80"/>
+<area shape="poly" id="edge4_Node000005_Node000006" title=" " alt="" coords="286,65,319,65,319,70,286,70"/>
+</map>

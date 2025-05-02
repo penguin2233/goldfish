@@ -1,0 +1,40 @@
+<map id="gf_gui_button_render" name="gf_gui_button_render">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,225,165,250"/>
+<area shape="rect" id="Node000002" href="$gf__graphic_8c.html#a63ff697af8cf405a5fab29b0bd893954" title="Pop clipping region." alt="" coords="693,18,844,44"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,224,105,191,131,148,167,104,188,85,212,69,271,43,333,24,396,12,460,5,581,5,682,14,682,19,581,10,461,11,397,17,334,29,272,48,215,73,192,89,171,107,136,151,110,193,94,226"/>
+<area shape="rect" id="Node000003" href="$gf__graphic_8c.html#ac4482ad3b1baa754820a496f84d66c3a" title="Push clipping region." alt="" coords="689,105,848,130"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="93,223,138,166,172,134,212,109,277,84,346,70,416,63,486,64,552,69,614,78,712,99,711,104,613,83,552,74,486,69,417,69,347,75,279,89,215,114,176,139,142,170,97,227"/>
+<area shape="rect" id="Node000004" href="$gf__graphic__common_8c.html#aa9d5d5bfbadc5412807ff95adfe70a1e" title="Draw text." alt="" coords="235,325,358,350"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="107,248,154,279,214,310,235,318,233,323,212,315,152,283,104,253"/>
+<area shape="rect" id="Node000014" href="$gf__graphic__common_8c.html#a1ce50172aa1749c26af704601fc131ef" title="Calculate text width." alt="" coords="213,276,380,301"/>
+<area shape="poly" id="edge6_Node000001_Node000014" title=" " alt="" coords="140,248,231,270,229,275,139,253"/>
+<area shape="rect" id="Node000015" href="$gf__gui_8c.html#a12905d9750d06d3440efc96eab4574e9" title="Calculate component X/Y/width/height." alt="" coords="228,124,365,149"/>
+<area shape="poly" id="edge8_Node000001_Node000015" title=" " alt="" coords="107,223,212,166,246,152,248,157,214,171,109,227"/>
+<area shape="rect" id="Node000017" href="$gf__prop_8c.html#aa37db41ede3bca25146697beb55ce290" title="Get integer from property." alt="" coords="693,174,845,200"/>
+<area shape="poly" id="edge21_Node000001_Node000017" title=" " alt="" coords="165,222,213,217,466,197,679,187,679,193,467,202,214,222,166,228"/>
+<area shape="rect" id="Node000019" href="$gf__gui_8c.html#a670ac29a4409cc16c8d77f2d33ccc499" title="Render box." alt="" coords="231,374,363,400"/>
+<area shape="poly" id="edge15_Node000001_Node000019" title=" " alt="" coords="98,249,145,302,178,333,215,360,230,367,227,372,212,364,174,337,141,306,94,252"/>
+<area shape="rect" id="Node000023" href="$gf__prop_8c.html#a26846805c1957f47586d3833a5780ecd" title="Get floating number from property." alt="" coords="454,225,609,250"/>
+<area shape="poly" id="edge19_Node000001_Node000023" title=" " alt="" coords="165,235,440,235,440,240,165,240"/>
+<area shape="rect" id="Node000024" href="$gf__prop_8c.html#aaa1dbc560946c6015231b6d78927a8a7" title="Get void pointer from property." alt="" coords="215,424,378,449"/>
+<area shape="poly" id="edge22_Node000001_Node000024" title=" " alt="" coords="95,250,111,282,138,325,172,370,215,409,227,416,224,421,212,413,169,374,133,328,107,285,90,252"/>
+<area shape="rect" id="Node000005" href="$gf__font_8c.html#adc4a1d10e49218c6383f5af6c4752fa1" title="Get glyph." alt="" coords="483,276,579,301"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="357,323,469,299,471,304,358,328"/>
+<area shape="rect" id="Node000006" href="$gf__graphic__common_8c.html#a3285370a495233cc7db4f25317cd5fb0" title="Draw rectangle with texture." alt="" coords="428,325,635,350"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="358,335,414,335,414,340,358,340"/>
+<area shape="poly" id="edge7_Node000014_Node000005" title=" " alt="" coords="380,286,469,286,469,291,380,291"/>
+<area shape="rect" id="Node000016" href="$gf__gui_8c.html#a2afb67331b3c6b3405299c2b55625e0c" title=" " alt="" coords="441,124,621,149"/>
+<area shape="poly" id="edge9_Node000015_Node000016" title=" " alt="" coords="366,134,427,134,427,139,366,139"/>
+<area shape="poly" id="edge10_Node000016_Node000002" title=" " alt="" coords="560,121,725,47,727,52,562,126"/>
+<area shape="poly" id="edge11_Node000016_Node000003" title=" " alt="" coords="621,127,676,122,676,128,622,132"/>
+<area shape="poly" id="edge12_Node000016_Node000016" title=" " alt="" coords="493,125,485,116,489,106,505,99,531,97,564,101,577,110,574,115,562,106,531,102,506,105,493,109,490,115,497,122"/>
+<area shape="poly" id="edge13_Node000016_Node000017" title=" " alt="" coords="592,147,696,169,695,174,591,152"/>
+<area shape="rect" id="Node000018" href="$gf__prop_8c.html#a3e16de8f8029afb04a6eff81efb6c2fa" title="Get void pointer from property." alt="" coords="903,200,1027,225"/>
+<area shape="poly" id="edge14_Node000017_Node000018" title=" " alt="" coords="845,194,889,200,889,205,844,200"/>
+<area shape="rect" id="Node000020" href="$gf__graphic__common_8c.html#a8ff780a4bcadc008355699101d2a42cc" title="Draw polygon." alt="" coords="683,401,855,426"/>
+<area shape="poly" id="edge16_Node000019_Node000020" title=" " alt="" coords="363,388,669,406,669,411,363,394"/>
+<area shape="rect" id="Node000022" href="$gf__graphic__common_8c.html#a4811198de205914602e5cdbafdcdd68d" title="Draw filled rectangle." alt="" coords="459,426,604,452"/>
+<area shape="poly" id="edge17_Node000019_Node000022" title=" " alt="" coords="355,397,461,421,460,426,354,402"/>
+<area shape="poly" id="edge18_Node000022_Node000020" title=" " alt="" coords="604,429,669,422,669,427,605,434"/>
+<area shape="poly" id="edge20_Node000023_Node000018" title=" " alt="" coords="609,231,889,214,889,220,609,236"/>
+</map>

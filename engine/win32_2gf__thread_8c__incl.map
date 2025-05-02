@@ -1,0 +1,21 @@
+<map id="src/thread/win32/gf_thread.c" name="src/thread/win32/gf_thread.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="60,5,207,45"/>
+<area shape="rect" id="Node000002" href="$gf__pre_8h.html" title="Required headers before anything." alt="" coords="88,313,163,339"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,48,45,67,20,95,10,123,9,152,17,181,30,210,67,262,104,302,101,306,63,266,25,213,12,183,4,152,5,122,15,92,42,63,75,43"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="30,93,120,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="122,47,94,84,90,80,117,44"/>
+<area shape="rect" id="Node000005" href="$gf__thread_8h.html" title="Thread interface." alt="" coords="144,93,240,119"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="150,44,177,80,173,84,146,47"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="265,93,336,119"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="175,43,265,85,262,90,172,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="79,387,172,412"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="128,339,128,373,123,373,123,339"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="184,121,145,170,126,204,111,241,109,271,117,300,112,301,104,272,106,239,121,202,141,167,180,117"/>
+<area shape="rect" id="Node000006" href="$gf__macro_8h.html" title="Macro." alt="" coords="121,240,216,265"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="192,120,180,167,173,226,168,226,175,166,186,118"/>
+<area shape="rect" id="Node000007" href="$thread_8h.html" title="Type definitions related to thread interface." alt="" coords="189,167,318,192"/>
+<area shape="poly" id="edge8_Node000005_Node000007" title=" " alt="" coords="204,117,237,154,233,158,200,121"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="164,267,142,303,137,300,159,264"/>
+<area shape="poly" id="edge9_Node000007_Node000002" title=" " alt="" coords="255,193,248,228,240,248,229,267,202,292,171,310,169,305,199,288,225,264,236,246,243,226,250,192"/>
+<area shape="poly" id="edge10_Node000007_Node000006" title=" " alt="" coords="242,194,194,233,191,229,238,190"/>
+</map>

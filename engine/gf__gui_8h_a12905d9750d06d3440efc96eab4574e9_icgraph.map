@@ -1,0 +1,13 @@
+<map id="gf_gui_calc_xywh" name="gf_gui_calc_xywh">
+<area shape="rect" id="Node000001" title="Calculate component X/Y/width/height." alt="" coords="389,80,527,105"/>
+<area shape="rect" id="Node000002" href="$gf__gui__button_8c.html#a0ccdea48225257886285941d53feb670" title=" " alt="" coords="177,5,337,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="417,77,340,45,306,33,307,28,342,39,419,72"/>
+<area shape="rect" id="Node000003" href="$gf__gui__frame_8c.html#a91d3f85387d400e08658e9b0f9bf0abb" title=" " alt="" coords="179,55,336,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="375,85,336,80,337,75,376,80"/>
+<area shape="rect" id="Node000004" href="$gf__gui_8c.html#a41f221ae3b2221553f49678f9434976c" title="Render GUI." alt="" coords="202,104,313,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="376,105,313,113,313,107,375,100"/>
+<area shape="rect" id="Node000010" href="$gf__gui__window_8c.html#a5f3d8d400fb67a9840d8d94a5869bb3c" title=" " alt="" coords="173,153,341,179"/>
+<area shape="poly" id="edge5_Node000001_Node000010" title=" " alt="" coords="416,114,342,143,304,156,302,151,340,138,414,109"/>
+<area shape="rect" id="Node000005" href="$gf__draw__common_8c.html#a4887fe11d8dfe55cf784e07b382b046a" title="Draw frame (common part)" alt="" coords="5,104,125,129"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="188,119,126,119,126,114,188,114"/>
+</map>

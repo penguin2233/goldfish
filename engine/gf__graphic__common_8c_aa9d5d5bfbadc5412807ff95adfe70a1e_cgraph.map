@@ -1,0 +1,9 @@
+<map id="gf_graphic_text" name="gf_graphic_text">
+<area shape="rect" id="Node000001" title="Draw text." alt="" coords="5,31,128,56"/>
+<area shape="rect" id="Node000002" href="$gf__font_8c.html#adc4a1d10e49218c6383f5af6c4752fa1" title="Get glyph." alt="" coords="231,5,327,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,33,218,23,218,28,128,39"/>
+<area shape="rect" id="Node000003" href="$gf__graphic__common_8c.html#a3285370a495233cc7db4f25317cd5fb0" title="Draw rectangle with texture." alt="" coords="176,55,383,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="128,48,163,51,162,57,128,53"/>
+<area shape="rect" id="Node000004" href="$gf__graphic__common_8c.html#a4157822cc342fa294329ed2c436d53f2" title="Draw polygon with texture." alt="" coords="431,47,613,87"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="383,65,417,65,417,70,383,70"/>
+</map>

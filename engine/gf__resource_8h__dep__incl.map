@@ -1,0 +1,9 @@
+<map id="include/gf_resource.h" name="include/gf_resource.h">
+<area shape="rect" id="Node000001" title="Resource." alt="" coords="101,5,262,31"/>
+<area shape="rect" id="Node000002" href="$gf__core_8c.html" title=" " alt="" coords="5,79,109,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,40,79,81,76,76,148,35"/>
+<area shape="rect" id="Node000003" href="$gf__file_8c.html" title=" " alt="" coords="133,79,229,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="184,44,184,79,179,79,179,44"/>
+<area shape="rect" id="Node000004" href="$gf__resource_8c.html" title=" " alt="" coords="254,79,386,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="217,34,299,76,296,81,214,39"/>
+</map>

@@ -1,0 +1,35 @@
+<map id="include/gf_prop.h" name="include/gf_prop.h">
+<area shape="rect" id="Node000001" title="Property." alt="" coords="1289,5,1424,31"/>
+<area shape="rect" id="Node000002" href="$gf__draw__common_8c.html" title=" " alt="" coords="5,86,177,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1276,22,1083,25,814,34,504,52,190,81,145,89,144,83,190,76,504,47,813,29,1083,20,1276,17"/>
+<area shape="rect" id="Node000003" href="$gf__gui_8c.html" title=" " alt="" coords="202,86,298,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1276,24,783,42,509,59,396,69,311,81,282,89,281,83,309,76,396,64,509,54,783,37,1276,19"/>
+<area shape="rect" id="Node000004" href="$gf__prop_8c.html" title=" " alt="" coords="323,86,428,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1276,21,1120,23,912,31,677,49,557,63,440,81,410,89,409,83,439,76,556,58,676,44,912,26,1120,18,1276,16"/>
+<area shape="rect" id="Node000005" href="$gf__gui__button_8c.html" title=" " alt="" coords="452,86,621,111"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1275,26,991,44,812,60,633,81,590,89,589,83,632,76,812,55,990,39,1275,20"/>
+<area shape="rect" id="Node000006" href="$gf__gui__frame_8c.html" title=" " alt="" coords="645,86,812,111"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="1276,29,1070,49,824,81,783,89,782,83,823,76,1070,44,1275,24"/>
+<area shape="rect" id="Node000007" href="$gf__gui__text_8c.html" title=" " alt="" coords="836,86,989,111"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1276,35,1002,81,966,89,965,83,1002,76,1275,29"/>
+<area shape="rect" id="Node000008" href="$gf__gui__window_8c.html" title=" " alt="" coords="1014,86,1190,111"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1307,37,1140,89,1138,83,1306,32"/>
+<area shape="rect" id="Node000009" href="$gf__lua_8c.html" title=" " alt="" coords="1214,86,1334,111"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1336,42,1288,88,1284,84,1333,38"/>
+<area shape="rect" id="Node000010" href="$gf__lua__audio_8c.html" title=" " alt="" coords="1358,86,1521,111"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1381,38,1429,84,1425,88,1377,42"/>
+<area shape="rect" id="Node000011" href="$gf__lua__font_8c.html" title=" " alt="" coords="1545,86,1699,111"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1409,32,1584,83,1583,89,1408,37"/>
+<area shape="rect" id="Node000012" href="$gf__lua__graphic_8c.html" title=" " alt="" coords="1723,86,1897,111"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="1438,30,1712,76,1752,83,1751,89,1711,81,1437,35"/>
+<area shape="rect" id="Node000013" href="$gf__lua__gui_8c.html" title=" " alt="" coords="1922,86,2069,111"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="1438,23,1652,42,1910,76,1948,83,1947,89,1910,81,1651,48,1437,28"/>
+<area shape="rect" id="Node000014" href="$gf__lua__metatable_8c.html" title=" " alt="" coords="2093,86,2287,111"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="1438,21,1723,40,1901,56,2081,76,2129,83,2128,89,2080,81,1901,61,1722,46,1438,26"/>
+<area shape="rect" id="Node000015" href="$gf__lua__metatable__audio_8c.html" title=" " alt="" coords="2312,79,2495,119"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="1438,19,1811,35,2054,52,2300,76,2312,78,2311,83,2299,81,2054,57,1811,40,1438,24"/>
+<area shape="rect" id="Node000016" href="$gf__lua__metatable__font_8c.html" title=" " alt="" coords="2519,79,2701,119"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="1438,17,1629,21,1894,30,2198,48,2508,76,2519,77,2518,83,2507,81,2198,53,1893,35,1628,26,1438,23"/>
+<area shape="rect" id="Node000017" href="$gf__lua__metatable__gui_8c.html" title=" " alt="" coords="2725,79,2908,119"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="1438,16,1659,18,1975,26,2341,44,2530,58,2714,76,2725,77,2725,83,2714,81,2529,63,2341,49,1974,31,1659,23,1438,22"/>
+</map>

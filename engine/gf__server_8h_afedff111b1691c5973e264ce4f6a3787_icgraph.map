@@ -1,0 +1,10 @@
+<map id="gf_server_destroy" name="gf_server_destroy">
+<area shape="rect" id="Node000001" title="Destroy server interface." alt="" coords="379,31,517,56"/>
+<area shape="rect" id="Node000002" href="$gf__core_8c.html#a978d9c52b1d1098b5fc2f3e869036b64" title="Destroy engine instance." alt="" coords="188,5,331,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="365,35,330,30,331,25,366,30"/>
+<area shape="rect" id="Node000004" href="$gf__server_8c.html#a861aac514f048d33ce16e3209e125df5" title="Create server interface." alt="" coords="194,55,325,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="366,56,325,62,325,56,365,51"/>
+<area shape="rect" id="Node000003" href="$gf__core_8c.html#a741291298ef02f3dceb1fdeaee2e27b4" title="Create engine instance." alt="" coords="5,31,140,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="175,32,141,37,140,32,174,27"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="180,60,140,55,141,49,180,55"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="gf_prop_set_floating" name="gf_prop_set_floating">
+<area shape="rect" id="Node000001" title="Set floating number to property." alt="" coords="5,5,160,31"/>
+<area shape="rect" id="Node000002" href="$gf__prop_8c.html#a0342e90764e9485cb83aa9bc6600d881" title="Set void pointer to property." alt="" coords="208,5,331,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,15,194,15,194,21,160,21"/>
+<area shape="rect" id="Node000003" href="$gf__prop_8c.html#a17c37ff36ee533fcd95a11a4e4974f08" title="Delete property." alt="" coords="379,5,497,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="331,15,365,15,365,21,331,21"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="gf_math_normal" name="gf_math_normal">
+<area shape="rect" id="Node000001" title="Calculate normal of triangle v0,v1,v2." alt="" coords="5,55,135,80"/>
+<area shape="rect" id="Node000002" href="$gf__math_8c.html#a394ebd35e2cddf28c86a45dad759fbee" title="Multiply vector by vector." alt="" coords="188,5,325,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,52,194,32,195,37,119,57"/>
+<area shape="rect" id="Node000003" href="$gf__math_8c.html#a3bd2afc9ff0e67e60afef9fe82553726" title="Normalize vector." alt="" coords="183,55,331,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="135,65,169,65,169,70,135,70"/>
+<area shape="rect" id="Node000004" href="$gf__math_8c.html#a9df6d1b30bea0b200582e2873bddd113" title="Subtract vector by vector." alt="" coords="189,104,325,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="119,77,195,98,194,103,118,83"/>
+</map>

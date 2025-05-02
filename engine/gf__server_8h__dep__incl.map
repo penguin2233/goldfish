@@ -1,0 +1,7 @@
+<map id="include/gf_server.h" name="include/gf_server.h">
+<area shape="rect" id="Node000001" title="Client interface." alt="" coords="51,5,197,31"/>
+<area shape="rect" id="Node000002" href="$gf__core_8c.html" title=" " alt="" coords="5,79,109,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,43,70,80,66,77,102,39"/>
+<area shape="rect" id="Node000003" href="$gf__server_8c.html" title=" " alt="" coords="134,79,250,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="146,39,183,77,179,80,143,42"/>
+</map>
