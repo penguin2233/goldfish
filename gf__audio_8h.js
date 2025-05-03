@@ -8,5 +8,6 @@ var gf__audio_8h =
     [ "gf_audio_load_file", "gf__audio_8h.html#af3ae4fe048705bae7ce8a377976a4c2d", null ],
     [ "gf_audio_pause", "gf__audio_8h.html#af319f87c14e6b784de694c065d147c80", null ],
     [ "gf_audio_resume", "gf__audio_8h.html#a336ebd4c24f26fb744114f955292f58b", null ],
+    [ "gf_audio_set_volume", "gf__audio_8h.html#a3fe618670d753c212cef4707b03e3fb9", null ],
     [ "gf_audio_stop", "gf__audio_8h.html#a270465ee43fdc71840bd1a5dbd0a1ec1", null ]
 ];
