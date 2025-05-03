@@ -270,6 +270,8 @@ Functions</h2></td></tr>
 <tr class="separator:a39a0a45da9a964e75d433ae9fd373d9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab45c8b2cf88f9c86a931af2301fad5d8" id="r_ab45c8b2cf88f9c86a931af2301fad5d8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gf__lua__audio_8c.html#ab45c8b2cf88f9c86a931af2301fad5d8">gf_lua_call_audio_create</a> (lua_State *s)</td></tr>
 <tr class="separator:ab45c8b2cf88f9c86a931af2301fad5d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af76f872557a478c1b4829113cac0e9e7" id="r_af76f872557a478c1b4829113cac0e9e7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gf__lua__audio_8c.html#af76f872557a478c1b4829113cac0e9e7">gf_lua_call_audio_set_volume</a> (lua_State *s)</td></tr>
+<tr class="separator:af76f872557a478c1b4829113cac0e9e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac49e0bb198a8f59f33035cc3e856e741" id="r_ac49e0bb198a8f59f33035cc3e856e741"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gf__lua__audio_8c.html#ac49e0bb198a8f59f33035cc3e856e741">gf_lua_create_goldfish_audio</a> (<a class="el" href="structgf__lua__t.html">gf_lua_t</a> *lua)</td></tr>
 <tr class="memdesc:ac49e0bb198a8f59f33035cc3e856e741"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create GoldFish Audio Lua interface.  <br /></td></tr>
 <tr class="separator:ac49e0bb198a8f59f33035cc3e856e741"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -408,6 +410,48 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="af76f872557a478c1b4829113cac0e9e7" name="af76f872557a478c1b4829113cac0e9e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af76f872557a478c1b4829113cac0e9e7">&#9670;&#160;</a></span>gf_lua_call_audio_set_volume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gf_lua_call_audio_set_volume </td>
+          <td>(</td>
+          <td class="paramtype">lua_State *&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="gf__lua__audio_8c_source.html#l00054">54</a> of file <a class="el" href="gf__lua__audio_8c_source.html">gf_lua_audio.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="gf__lua__audio_8c_af76f872557a478c1b4829113cac0e9e7_cgraph.png" border="0" usemap="#agf__lua__audio_8c_af76f872557a478c1b4829113cac0e9e7_cgraph" alt=""/></div>
+<map name="agf__lua__audio_8c_af76f872557a478c1b4829113cac0e9e7_cgraph" id="agf__lua__audio_8c_af76f872557a478c1b4829113cac0e9e7_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,168,45"/>
+<area shape="rect" href="gf__audio_8c.html#a3fe618670d753c212cef4707b03e3fb9" title="Set volume." alt="" coords="216,13,377,38"/>
+<area shape="poly" title=" " alt="" coords="168,23,202,23,202,28,168,28"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="gf__lua__audio_8c_af76f872557a478c1b4829113cac0e9e7_icgraph.png" border="0" usemap="#agf__lua__audio_8c_af76f872557a478c1b4829113cac0e9e7_icgraph" alt=""/></div>
+<map name="agf__lua__audio_8c_af76f872557a478c1b4829113cac0e9e7_icgraph" id="agf__lua__audio_8c_af76f872557a478c1b4829113cac0e9e7_icgraph">
+<area shape="rect" title=" " alt="" coords="437,5,600,45"/>
+<area shape="rect" href="gf__lua__audio_8c.html#ac49e0bb198a8f59f33035cc3e856e741" title="Create GoldFish Audio Lua interface." alt="" coords="221,5,389,45"/>
+<area shape="poly" title=" " alt="" coords="423,28,389,28,389,23,423,23"/>
+<area shape="rect" href="gf__lua_8c.html#ac25650b30652d8cb8c65252229645360" title=" " alt="" coords="5,13,173,38"/>
+<area shape="poly" title=" " alt="" coords="207,28,174,28,174,23,207,23"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a39a0a45da9a964e75d433ae9fd373d9e" name="a39a0a45da9a964e75d433ae9fd373d9e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a39a0a45da9a964e75d433ae9fd373d9e">&#9670;&#160;</a></span>gf_lua_create_audio()</h2>
 
@@ -472,19 +516,23 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="gf__lua__audio_8c_source.html#l00054">54</a> of file <a class="el" href="gf__lua__audio_8c_source.html">gf_lua_audio.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gf__lua__audio_8c_source.html#l00067">67</a> of file <a class="el" href="gf__lua__audio_8c_source.html">gf_lua_audio.c</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="gf__lua__audio_8c_ac49e0bb198a8f59f33035cc3e856e741_cgraph.png" border="0" usemap="#agf__lua__audio_8c_ac49e0bb198a8f59f33035cc3e856e741_cgraph" alt=""/></div>
 <map name="agf__lua__audio_8c_ac49e0bb198a8f59f33035cc3e856e741_cgraph" id="agf__lua__audio_8c_ac49e0bb198a8f59f33035cc3e856e741_cgraph">
-<area shape="rect" title="Create GoldFish Audio Lua interface." alt="" coords="5,23,173,63"/>
-<area shape="rect" href="gf__lua__audio_8c.html#ab45c8b2cf88f9c86a931af2301fad5d8" title=" " alt="" coords="221,31,404,56"/>
-<area shape="poly" title=" " alt="" coords="173,41,208,41,208,46,173,46"/>
-<area shape="rect" href="gf__audio_8c.html#af3ae4fe048705bae7ce8a377976a4c2d" title="Load and play file." alt="" coords="459,5,599,31"/>
-<area shape="poly" title=" " alt="" coords="404,30,444,25,445,30,405,35"/>
-<area shape="rect" href="gf__lua__audio_8c.html#a39a0a45da9a964e75d433ae9fd373d9e" title="Create Audio userdata." alt="" coords="452,55,605,80"/>
-<area shape="poly" title=" " alt="" coords="405,51,438,55,438,60,404,56"/>
+<area shape="rect" title="Create GoldFish Audio Lua interface." alt="" coords="5,73,173,113"/>
+<area shape="rect" href="gf__lua__audio_8c.html#ab45c8b2cf88f9c86a931af2301fad5d8" title=" " alt="" coords="221,51,404,76"/>
+<area shape="poly" title=" " alt="" coords="173,79,207,74,208,80,174,84"/>
+<area shape="rect" href="gf__lua__audio_8c.html#af76f872557a478c1b4829113cac0e9e7" title=" " alt="" coords="231,101,394,141"/>
+<area shape="poly" title=" " alt="" coords="174,101,218,106,217,111,173,106"/>
+<area shape="rect" href="gf__audio_8c.html#af3ae4fe048705bae7ce8a377976a4c2d" title="Load and play file." alt="" coords="463,5,603,31"/>
+<area shape="poly" title=" " alt="" coords="375,48,457,31,458,36,376,53"/>
+<area shape="rect" href="gf__lua__audio_8c.html#a39a0a45da9a964e75d433ae9fd373d9e" title="Create Audio userdata." alt="" coords="456,55,609,80"/>
+<area shape="poly" title=" " alt="" coords="404,62,442,63,442,68,404,68"/>
+<area shape="rect" href="gf__audio_8c.html#a3fe618670d753c212cef4707b03e3fb9" title="Set volume." alt="" coords="452,108,613,133"/>
+<area shape="poly" title=" " alt="" coords="394,118,438,118,438,123,394,123"/>
 </map>
 </div>
 <div class="dynheader">
