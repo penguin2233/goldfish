@@ -1,9 +1,13 @@
 <map id="gf_graphic_text" name="gf_graphic_text">
-<area shape="rect" id="Node000001" title="Draw text." alt="" coords="5,31,128,56"/>
+<area shape="rect" id="Node000001" title="Draw text." alt="" coords="5,55,128,80"/>
 <area shape="rect" id="Node000002" href="$gf__font_8c.html#adc4a1d10e49218c6383f5af6c4752fa1" title="Get glyph." alt="" coords="231,5,327,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,33,218,23,218,28,128,39"/>
-<area shape="rect" id="Node000003" href="$gf__graphic__common_8c.html#a3285370a495233cc7db4f25317cd5fb0" title="Draw rectangle with texture." alt="" coords="176,55,383,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="128,48,163,51,162,57,128,53"/>
-<area shape="rect" id="Node000004" href="$gf__graphic__common_8c.html#a4157822cc342fa294329ed2c436d53f2" title="Draw polygon with texture." alt="" coords="431,47,613,87"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="383,65,417,65,417,70,383,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,52,218,29,219,35,123,57"/>
+<area shape="rect" id="Node000003" href="$gf__font_8c.html#abc7719b5324b4b037de2a24c267b1f3e" title="Render text." alt="" coords="221,55,338,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="128,65,207,65,207,70,128,70"/>
+<area shape="rect" id="Node000008" href="$gf__graphic__common_8c.html#a3285370a495233cc7db4f25317cd5fb0" title="Draw rectangle with texture." alt="" coords="176,105,383,131"/>
+<area shape="poly" id="edge4_Node000001_Node000008" title=" " alt="" coords="122,78,213,100,212,105,120,83"/>
+<area shape="rect" id="Node000004" href="$gf__texture_8c.html#a6cd0c41bfc9dbe140bb52f39aaa14080" title="Create texture." alt="" coords="453,52,591,77"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="338,64,440,63,440,68,338,69"/>
+<area shape="rect" id="Node000009" href="$gf__graphic__common_8c.html#a4157822cc342fa294329ed2c436d53f2" title="Draw polygon with texture." alt="" coords="431,102,613,142"/>
+<area shape="poly" id="edge5_Node000008_Node000009" title=" " alt="" coords="383,117,417,118,417,123,383,122"/>
 </map>

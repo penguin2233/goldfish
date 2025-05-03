@@ -7,11 +7,11 @@
 <area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="165,389,128,395,89,406,52,424,23,452,17,472,22,494,17,495,12,472,18,449,49,420,87,401,127,390,164,384"/>
 <area shape="rect" id="Node000005" href="$structgf__client__t.html" title="Client interface." alt="" coords="151,509,234,575"/>
 <area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="175,428,163,451,161,473,167,494,161,495,156,473,158,450,170,426"/>
-<area shape="rect" id="Node000021" href="$structgf__lua__t.html" title="Lua interface." alt="" coords="350,489,417,595"/>
-<area shape="poly" id="edge8_Node000021_Node000002" title=" " alt="" coords="257,422,288,449,340,496,336,500,284,453,254,426"/>
+<area shape="rect" id="Node000022" href="$structgf__lua__t.html" title="Lua interface." alt="" coords="350,489,417,595"/>
+<area shape="poly" id="edge8_Node000022_Node000002" title=" " alt="" coords="257,422,288,449,340,496,336,500,284,453,254,426"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="58,508,73,478,95,449,120,427,149,410,151,414,124,431,99,452,78,481,63,510"/>
 <area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="208,508,223,465,225,443,230,443,229,466,213,510"/>
-<area shape="poly" id="edge7_Node000002_Node000021" title=" " alt="" coords="403,489,404,469,397,452,372,427,340,409,305,398,271,391,272,386,306,393,342,404,375,423,402,449,409,469,408,489"/>
-<area shape="rect" id="Node000022" href="$structgf__resource__entry__t.html" title="Resource entry." alt="" coords="139,5,281,151"/>
-<area shape="poly" id="edge9_Node000001_Node000022" title=" " alt="" coords="213,151,213,197,207,197,207,151"/>
+<area shape="poly" id="edge7_Node000002_Node000022" title=" " alt="" coords="403,489,404,469,397,452,372,427,340,409,305,398,271,391,272,386,306,393,342,404,375,423,402,449,409,469,408,489"/>
+<area shape="rect" id="Node000023" href="$structgf__resource__entry__t.html" title="Resource entry." alt="" coords="139,5,281,151"/>
+<area shape="poly" id="edge9_Node000001_Node000023" title=" " alt="" coords="213,151,213,197,207,197,207,151"/>
 </map>

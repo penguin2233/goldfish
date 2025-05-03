@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"gf__graphic_8c.html#a996326c3cd9494d40efe7f4c34f9d62e":[2,0,1,1,0,4,10],
+"gf__graphic_8c.html#ac4482ad3b1baa754820a496f84d66c3a":[2,0,1,1,0,4,5],
 "gf__graphic_8c.html#acd5d3047cf76b63b2d1161e4e880f446":[2,0,1,1,0,4,7],
 "gf__graphic_8c.html#ad35db673e213edbadbfd938138c88a4c":[2,0,1,1,0,4,2],
 "gf__graphic_8c.html#af8285b506b90125960bf01b427a9a883":[2,0,1,1,0,4,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "gf__lua__gui_8c.html#ad4aa2bdaa2b19cb28bb28ffe1bf1d25f":[2,0,1,3,4,6],
 "gf__lua__gui_8c_source.html":[2,0,1,3,4],
 "gf__lua__metatable_8c.html":[2,0,1,3,5],
-"gf__lua__metatable_8c.html#a13d820c4f195f0f38ce7d791a9a4ddeb":[2,0,1,3,5,0],
-"gf__lua__metatable_8c.html#a438e60b3ef2df2ad0a220523e95d6dca":[2,0,1,3,5,2],
-"gf__lua__metatable_8c.html#a4a8b5bd4a3f26e4e775db703d383e315":[2,0,1,3,5,3]
+"gf__lua__metatable_8c.html#a13d820c4f195f0f38ce7d791a9a4ddeb":[2,0,1,3,5,0]
 };

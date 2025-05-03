@@ -6,7 +6,7 @@ var searchData=
   ['decoder_5fconfig_3',['decoder_config',['../structgf__audio__decoder__t.html#a3bf94e1820e821535b56790c58c970a5',1,'gf_audio_decoder_t']]],
   ['device_4',['device',['../structgf__audio__t.html#a2dafdd739c5d3b1a7ced62d76788a1f9',1,'gf_audio_t']]],
   ['device_5fconfig_5',['device_config',['../structgf__audio__t.html#a0e3429dd984c065144f431bf34e2b4c4',1,'gf_audio_t']]],
-  ['draw_6',['draw',['../structgf__client__t.html#a363cb3993e177565b9e22c9df5d5ce2c',1,'gf_client_t::draw'],['../structgf__gui__t.html#a83995bd363ebcdac5b80a16681ea111a',1,'gf_gui_t::draw']]],
+  ['draw_6',['draw',['../structgf__client__t.html#a363cb3993e177565b9e22c9df5d5ce2c',1,'gf_client_t::draw'],['../structgf__font__t.html#a9cfa45e8ac8113b56f1e30664076ce49',1,'gf_font_t::draw'],['../structgf__gui__t.html#a83995bd363ebcdac5b80a16681ea111a',1,'gf_gui_t::draw']]],
   ['draw_2eh_7',['draw.h',['../draw_8h.html',1,'']]],
   ['draw_5f3d_8',['draw_3d',['../structgf__draw__t.html#a4699dbc1203697ad79ef8635d48886ec',1,'gf_draw_t']]],
   ['draw_5fdriver_2eh_9',['draw_driver.h',['../draw__driver_8h.html',1,'']]],

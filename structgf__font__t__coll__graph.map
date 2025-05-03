@@ -1,10 +1,29 @@
 <map id="gf_font_t" name="gf_font_t">
-<area shape="rect" id="Node000001" title="Font." alt="" coords="142,381,214,447"/>
-<area shape="rect" id="Node000002" href="$structgf__font__glyph__t.html" title="Glyph." alt="" coords="67,213,182,319"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="146,318,163,365,158,367,141,320"/>
-<area shape="rect" id="Node000003" href="$structgf__texture__t.html" title="Texture." alt="" coords="5,5,132,151"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="66,150,73,189,76,198,71,200,67,190,61,151"/>
-<area shape="rect" id="Node000005" href="$structgf__font__bbox__t.html" title="Bounding box." alt="" coords="165,15,276,141"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="230,141,232,244,226,302,214,358,210,368,205,366,209,357,221,301,226,244,225,141"/>
-<area shape="poly" id="edge3_Node000002_Node000005" title=" " alt="" coords="184,142,166,176,154,199,150,197,161,173,180,139"/>
+<area shape="rect" id="Node000001" title="Font." alt="" coords="577,381,672,507"/>
+<area shape="rect" id="Node000002" href="$structgf__draw__t.html" title="Drawing interface." alt="" coords="337,569,429,895"/>
+<area shape="poly" id="edge10_Node000002_Node000001" title=" " alt="" coords="613,508,595,547,561,591,522,630,444,694,441,690,518,626,557,587,590,544,608,506"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="427,669,542,529,563,505,567,509,546,532,431,673"/>
+<area shape="rect" id="Node000015" href="$structgf__gui__t.html" title="GUI." alt="" coords="276,957,356,1043"/>
+<area shape="poly" id="edge9_Node000015_Node000002" title=" " alt="" coords="367,896,356,934,352,944,348,942,351,932,362,894"/>
+<area shape="rect" id="Node000003" href="$structgf__engine__t.html" title="Engine instance." alt="" coords="35,223,126,309"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="126,272,211,287,311,311,402,342,436,360,458,380,476,410,485,443,488,478,485,513,467,582,439,644,434,642,462,580,480,512,483,478,480,444,471,412,454,383,433,364,400,346,309,316,210,292,125,277"/>
+<area shape="rect" id="Node000007" href="$structgf__input__t.html" title="Input interface." alt="" coords="28,391,132,497"/>
+<area shape="poly" id="edge4_Node000007_Node000003" title=" " alt="" coords="83,309,83,374,78,374,78,309"/>
+<area shape="poly" id="edge8_Node000015_Node000003" title=" " alt="" coords="52,310,33,344,19,382,11,417,8,444,11,472,19,506,41,572,69,636,102,699,137,758,209,863,271,943,267,946,204,866,132,761,97,701,64,639,36,574,14,507,5,472,3,444,6,416,14,381,28,342,48,308"/>
+<area shape="poly" id="edge3_Node000002_Node000007" title=" " alt="" coords="134,493,146,505,327,674,323,678,142,509,130,497"/>
+<area shape="rect" id="Node000013" href="$structgf__draw__platform__t.html" title="Platform&#45;dependent part of drawing driver." alt="" coords="156,411,298,477"/>
+<area shape="poly" id="edge5_Node000002_Node000013" title=" " alt="" coords="247,476,331,630,327,633,242,478"/>
+<area shape="rect" id="Node000014" href="$structgf__draw__driver__t.html" title="Drawing driver." alt="" coords="322,411,444,477"/>
+<area shape="poly" id="edge6_Node000002_Node000014" title=" " alt="" coords="386,477,386,552,380,552,380,477"/>
+<area shape="poly" id="edge7_Node000002_Node000015" title=" " alt="" coords="312,957,315,918,329,861,335,862,320,919,317,958"/>
+<area shape="rect" id="Node000019" href="$structgf__font__glyph__t.html" title="Glyph." alt="" coords="598,213,712,319"/>
+<area shape="poly" id="edge11_Node000001_Node000019" title=" " alt="" coords="649,319,641,365,635,364,643,319"/>
+<area shape="rect" id="Node000020" href="$structgf__texture__t.html" title="Texture." alt="" coords="657,5,784,151"/>
+<area shape="poly" id="edge12_Node000019_Node000020" title=" " alt="" coords="698,152,681,199,676,197,693,150"/>
+<area shape="rect" id="Node000023" href="$structgf__font__cache__t.html" title="Font cache." alt="" coords="736,213,854,319"/>
+<area shape="poly" id="edge16_Node000023_Node000020" title=" " alt="" coords="752,150,771,197,766,199,747,152"/>
+<area shape="rect" id="Node000022" href="$structgf__font__bbox__t.html" title="Bounding box." alt="" coords="496,15,606,141"/>
+<area shape="poly" id="edge14_Node000001_Node000022" title=" " alt="" coords="538,141,532,181,529,226,531,273,540,318,553,347,570,375,565,378,548,350,535,319,526,274,524,226,527,181,533,140"/>
+<area shape="poly" id="edge13_Node000019_Node000022" title=" " alt="" coords="588,140,621,198,616,200,583,142"/>
+<area shape="poly" id="edge15_Node000001_Node000023" title=" " alt="" coords="747,321,685,384,681,380,743,317"/>
 </map>
