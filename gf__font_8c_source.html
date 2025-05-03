@@ -333,96 +333,100 @@ $(document).ready(function(){initNavTree('gf__font_8c_source.html',''); initResi
 <div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>        <span class="keywordtype">char</span>*           buf;</div>
 <div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>        <span class="keywordtype">int</span>             i    = 0;</div>
 <div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>        <span class="keywordtype">int</span>             incr = 0;</div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>        <a class="code hl_struct" href="structgf__font__store__t.html">gf_font_store_t</a> store;</div>
-<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>        store.<a class="code hl_variable" href="structgf__font__store__t.html#ac61fb240806ebda67494ac162d20964c">line_index</a>  = -1;</div>
-<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>        store.<a class="code hl_variable" href="structgf__font__store__t.html#a3fb7b9dda717b2b8452a3d8d48c8cc6c">glyph_index</a> = 0;</div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>        memset(font, 0, <span class="keyword">sizeof</span>(*font));</div>
-<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>        font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a64429d9770b427e15220d58d8234c73e">count</a>     = 0;</div>
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>        font-&gt;<a class="code hl_variable" href="structgf__font__t.html#aeb54d33e91721d58f61e067787dc9881">use_glyph</a> = 1;</div>
-<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>        font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a9cfa45e8ac8113b56f1e30664076ce49">draw</a>      = draw;</div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span> </div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>        buf       = malloc(size + 1);</div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>        buf[size] = 0;</div>
-<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>        memcpy(buf, data, size);</div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>        <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> ttf_magic[5];</div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>        <a class="code hl_struct" href="structgf__font__store__t.html">gf_font_store_t</a> store;</div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>        store.<a class="code hl_variable" href="structgf__font__store__t.html#ac61fb240806ebda67494ac162d20964c">line_index</a>  = -1;</div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>        store.<a class="code hl_variable" href="structgf__font__store__t.html#a3fb7b9dda717b2b8452a3d8d48c8cc6c">glyph_index</a> = 0;</div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>        memset(font, 0, <span class="keyword">sizeof</span>(*font));</div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>        font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a64429d9770b427e15220d58d8234c73e">count</a>     = 0;</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>        font-&gt;<a class="code hl_variable" href="structgf__font__t.html#aeb54d33e91721d58f61e067787dc9881">use_glyph</a> = 1;</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>        font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a9cfa45e8ac8113b56f1e30664076ce49">draw</a>      = draw;</div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span> </div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>        memset(ttf_magic, 0, 5);</div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>        ttf_magic[1] = 1;</div>
 <div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span> </div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>        <span class="keywordflow">if</span>(stbtt_InitFont(&amp;font-&gt;<a class="code hl_variable" href="structgf__font__t.html#af00a09357784cc2262f5c081b6647d91">ttf</a>, buf, 0)) {</div>
-<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>                font-&gt;<a class="code hl_variable" href="structgf__font__t.html#aeb54d33e91721d58f61e067787dc9881">use_glyph</a> = 0;</div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>                font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a6aa582459bd77a6ad903d5ad287babe1">buffer</a>    = buf;</div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>                <span class="keywordflow">return</span> font;</div>
-<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>        }</div>
-<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span> </div>
-<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>        <span class="keywordflow">for</span>(i = 0;; i++) {</div>
-<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>                <span class="keywordflow">if</span>(buf[i] == 0 || buf[i] == <span class="charliteral">&#39;\n&#39;</span>) {</div>
-<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>                        <span class="keywordtype">char</span>  oldc = buf[i];</div>
-<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>                        <span class="keywordtype">char</span>* line = buf + incr;</div>
-<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>                        buf[i]     = 0;</div>
-<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>                        incr       = i + 1;</div>
-<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span> </div>
-<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>                        <span class="keywordflow">if</span>(strlen(line) &gt;= 1 &amp;&amp; line[strlen(line) - 1] == <span class="charliteral">&#39;\r&#39;</span>) {</div>
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>                                line[strlen(line) - 1] = 0;</div>
-<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>                        }</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>        buf       = malloc(size + 1);</div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>        buf[size] = 0;</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>        memcpy(buf, data, size);</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span> </div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>        <span class="keywordflow">if</span>(size &gt; 5 &amp;&amp; memcmp(data, ttf_magic, 5) == 0 &amp;&amp; stbtt_InitFont(&amp;font-&gt;<a class="code hl_variable" href="structgf__font__t.html#af00a09357784cc2262f5c081b6647d91">ttf</a>, buf, 0)) {</div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>                font-&gt;<a class="code hl_variable" href="structgf__font__t.html#aeb54d33e91721d58f61e067787dc9881">use_glyph</a> = 0;</div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>                font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a6aa582459bd77a6ad903d5ad287babe1">buffer</a>    = buf;</div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>                <span class="keywordflow">return</span> font;</div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>        }</div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span> </div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>        <span class="keywordflow">for</span>(i = 0;; i++) {</div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>                <span class="keywordflow">if</span>(buf[i] == 0 || buf[i] == <span class="charliteral">&#39;\n&#39;</span>) {</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>                        <span class="keywordtype">char</span>  oldc = buf[i];</div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>                        <span class="keywordtype">char</span>* line = buf + incr;</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>                        buf[i]     = 0;</div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>                        incr       = i + 1;</div>
 <div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span> </div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>                        <a class="code hl_function" href="gf__font_8c.html#aa179aebf715af02be254760427e70abf">gf_font_parse_line</a>(draw, path, &amp;store, font, line);</div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span> </div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>                        <span class="keywordflow">if</span>(oldc == 0) <span class="keywordflow">break</span>;</div>
-<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>                }</div>
-<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>        }</div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>                        <span class="keywordflow">if</span>(strlen(line) &gt;= 1 &amp;&amp; line[strlen(line) - 1] == <span class="charliteral">&#39;\r&#39;</span>) {</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>                                line[strlen(line) - 1] = 0;</div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>                        }</div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span> </div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>                        <a class="code hl_function" href="gf__font_8c.html#aa179aebf715af02be254760427e70abf">gf_font_parse_line</a>(draw, path, &amp;store, font, line);</div>
 <div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span> </div>
-<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>        free(buf);</div>
-<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>        <span class="keywordflow">return</span> font;</div>
-<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>}</div>
-</div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>                        <span class="keywordflow">if</span>(oldc == 0) <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>                }</div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>        }</div>
 <div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span> </div>
-<div class="foldopen" id="foldopen00270" data-start="{" data-end="}">
-<div class="line"><a id="l00270" name="l00270"></a><span class="lineno"><a class="line" href="gf__font_8c.html#a2264f26f7f9fd11d30d56d86b415b381">  270</a></span><a class="code hl_struct" href="structgf__font__t.html">gf_font_t</a>* <a class="code hl_function" href="gf__font_8c.html#a2264f26f7f9fd11d30d56d86b415b381">gf_font_create_file</a>(<a class="code hl_struct" href="structgf__draw__t.html">gf_draw_t</a>* draw, <span class="keyword">const</span> <span class="keywordtype">char</span>* path) {</div>
-<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>        <span class="keywordtype">char</span>*      buf;</div>
-<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>        <a class="code hl_struct" href="structgf__font__t.html">gf_font_t</a>* font;</div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>        <a class="code hl_struct" href="structgf__file__t.html">gf_file_t</a>* f = <a class="code hl_function" href="gf__file_8c.html#a75171efe7e9e4fb445ce99766db046bb">gf_file_open</a>(draw-&gt;<a class="code hl_variable" href="structgf__draw__t.html#a9168679ed35dff169e7694bc40d5fe83">engine</a>, path, <span class="stringliteral">&quot;r&quot;</span>);</div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>        <span class="keywordflow">if</span>(f == NULL) <span class="keywordflow">return</span> NULL;</div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span> </div>
-<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>        <a class="code hl_define" href="gf__log_8h.html#a165a2d1cecbdd974b4a44450011bb84a">gf_log_function</a>(NULL, <span class="stringliteral">&quot;%s: %lu bytes&quot;</span>, path, (<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span>)f-&gt;<a class="code hl_variable" href="structgf__file__t.html#aa233e2ec0f8a1e1d533e9b52d6cff329">size</a>);</div>
-<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>        buf          = malloc(f-&gt;<a class="code hl_variable" href="structgf__file__t.html#aa233e2ec0f8a1e1d533e9b52d6cff329">size</a> + 1);</div>
-<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>        buf[f-&gt;<a class="code hl_variable" href="structgf__file__t.html#aa233e2ec0f8a1e1d533e9b52d6cff329">size</a>] = 0;</div>
-<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span> </div>
-<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>        <a class="code hl_function" href="gf__file_8c.html#a50307b5b19b902357320ed26d4f000fd">gf_file_read</a>(f, buf, f-&gt;<a class="code hl_variable" href="structgf__file__t.html#aa233e2ec0f8a1e1d533e9b52d6cff329">size</a>);</div>
-<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span> </div>
-<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>        font = <a class="code hl_function" href="gf__font_8c.html#ac0048135a16cab856891b9686a17809d">gf_font_create</a>(draw, path, buf, f-&gt;<a class="code hl_variable" href="structgf__file__t.html#aa233e2ec0f8a1e1d533e9b52d6cff329">size</a>);</div>
-<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span> </div>
-<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>        <a class="code hl_function" href="gf__file_8c.html#a21009a41c9139fba583fd9034cc5f58d">gf_file_close</a>(f);</div>
-<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>        free(buf);</div>
-<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span> </div>
-<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>        <span class="keywordflow">return</span> font;</div>
-<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>}</div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>        free(buf);</div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>        <span class="keywordflow">return</span> font;</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>}</div>
 </div>
-<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span> </div>
-<div class="foldopen" id="foldopen00290" data-start="{" data-end="}">
-<div class="line"><a id="l00290" name="l00290"></a><span class="lineno"><a class="line" href="gf__font_8c.html#a2777beb54b042206a6873accb1333522">  290</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="gf__font_8c.html#a2777beb54b042206a6873accb1333522">gf_font_destroy</a>(<a class="code hl_struct" href="structgf__font__t.html">gf_font_t</a>* font) {</div>
-<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>        <span class="keywordtype">int</span> i;</div>
-<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>        <span class="keywordflow">if</span>(font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a1264a95b11cec574d66cda5f57de1808">glyph</a> != NULL) {</div>
-<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>                <span class="keywordflow">for</span>(i = 0; i &lt; font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a64429d9770b427e15220d58d8234c73e">count</a>; i++) {</div>
-<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>                        <a class="code hl_function" href="gf__texture_8c.html#a3bfedc6c576e35173d3a7b1b9565e649">gf_texture_destroy</a>(font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a1264a95b11cec574d66cda5f57de1808">glyph</a>[i]-&gt;<a class="code hl_variable" href="structgf__font__glyph__t.html#a91dd3ea1f159fcd432b2a0853bac462a">texture</a>);</div>
-<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>                }</div>
-<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>                free(font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a1264a95b11cec574d66cda5f57de1808">glyph</a>);</div>
-<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>        }</div>
-<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>        <span class="keywordflow">if</span>(font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a828f0b4a3b04fbc9b1837bcc2c74d2dd">cache</a> != NULL) {</div>
-<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>                <span class="keywordflow">for</span>(i = 0; i &lt; arrlen(font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a828f0b4a3b04fbc9b1837bcc2c74d2dd">cache</a>); i++) {</div>
-<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>                        free(font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a828f0b4a3b04fbc9b1837bcc2c74d2dd">cache</a>[i].<a class="code hl_variable" href="structgf__font__cache__t.html#a964bcf258ee3be8f1bf5b432e1d52f5c">text</a>);</div>
-<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>                        <a class="code hl_function" href="gf__texture_8c.html#a3bfedc6c576e35173d3a7b1b9565e649">gf_texture_destroy</a>(font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a828f0b4a3b04fbc9b1837bcc2c74d2dd">cache</a>[i].<a class="code hl_variable" href="structgf__font__cache__t.html#af30687f9f6370477b4291cc6ccce30bb">texture</a>);</div>
-<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>                }</div>
-<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>                arrfree(font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a828f0b4a3b04fbc9b1837bcc2c74d2dd">cache</a>);</div>
-<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>        }</div>
-<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>        <span class="keywordflow">if</span>(font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a6aa582459bd77a6ad903d5ad287babe1">buffer</a> != NULL) {</div>
-<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span>                free(font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a6aa582459bd77a6ad903d5ad287babe1">buffer</a>);</div>
-<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span>        }</div>
-<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>        free(font);</div>
-<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span>}</div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span> </div>
+<div class="foldopen" id="foldopen00274" data-start="{" data-end="}">
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno"><a class="line" href="gf__font_8c.html#a2264f26f7f9fd11d30d56d86b415b381">  274</a></span><a class="code hl_struct" href="structgf__font__t.html">gf_font_t</a>* <a class="code hl_function" href="gf__font_8c.html#a2264f26f7f9fd11d30d56d86b415b381">gf_font_create_file</a>(<a class="code hl_struct" href="structgf__draw__t.html">gf_draw_t</a>* draw, <span class="keyword">const</span> <span class="keywordtype">char</span>* path) {</div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>        <span class="keywordtype">char</span>*      buf;</div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>        <a class="code hl_struct" href="structgf__font__t.html">gf_font_t</a>* font;</div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>        <a class="code hl_struct" href="structgf__file__t.html">gf_file_t</a>* f = <a class="code hl_function" href="gf__file_8c.html#a75171efe7e9e4fb445ce99766db046bb">gf_file_open</a>(draw-&gt;<a class="code hl_variable" href="structgf__draw__t.html#a9168679ed35dff169e7694bc40d5fe83">engine</a>, path, <span class="stringliteral">&quot;r&quot;</span>);</div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>        <span class="keywordflow">if</span>(f == NULL) <span class="keywordflow">return</span> NULL;</div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span> </div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>        <a class="code hl_define" href="gf__log_8h.html#a165a2d1cecbdd974b4a44450011bb84a">gf_log_function</a>(NULL, <span class="stringliteral">&quot;%s: %lu bytes&quot;</span>, path, (<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span>)f-&gt;<a class="code hl_variable" href="structgf__file__t.html#aa233e2ec0f8a1e1d533e9b52d6cff329">size</a>);</div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>        buf          = malloc(f-&gt;<a class="code hl_variable" href="structgf__file__t.html#aa233e2ec0f8a1e1d533e9b52d6cff329">size</a> + 1);</div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>        buf[f-&gt;<a class="code hl_variable" href="structgf__file__t.html#aa233e2ec0f8a1e1d533e9b52d6cff329">size</a>] = 0;</div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span> </div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>        <a class="code hl_function" href="gf__file_8c.html#a50307b5b19b902357320ed26d4f000fd">gf_file_read</a>(f, buf, f-&gt;<a class="code hl_variable" href="structgf__file__t.html#aa233e2ec0f8a1e1d533e9b52d6cff329">size</a>);</div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span> </div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>        font = <a class="code hl_function" href="gf__font_8c.html#ac0048135a16cab856891b9686a17809d">gf_font_create</a>(draw, path, buf, f-&gt;<a class="code hl_variable" href="structgf__file__t.html#aa233e2ec0f8a1e1d533e9b52d6cff329">size</a>);</div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span> </div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>        <a class="code hl_function" href="gf__file_8c.html#a21009a41c9139fba583fd9034cc5f58d">gf_file_close</a>(f);</div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>        free(buf);</div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span> </div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>        <span class="keywordflow">return</span> font;</div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>}</div>
+</div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span> </div>
+<div class="foldopen" id="foldopen00294" data-start="{" data-end="}">
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno"><a class="line" href="gf__font_8c.html#a2777beb54b042206a6873accb1333522">  294</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="gf__font_8c.html#a2777beb54b042206a6873accb1333522">gf_font_destroy</a>(<a class="code hl_struct" href="structgf__font__t.html">gf_font_t</a>* font) {</div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>        <span class="keywordtype">int</span> i;</div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>        <span class="keywordflow">if</span>(font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a1264a95b11cec574d66cda5f57de1808">glyph</a> != NULL) {</div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>                <span class="keywordflow">for</span>(i = 0; i &lt; font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a64429d9770b427e15220d58d8234c73e">count</a>; i++) {</div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>                        <a class="code hl_function" href="gf__texture_8c.html#a3bfedc6c576e35173d3a7b1b9565e649">gf_texture_destroy</a>(font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a1264a95b11cec574d66cda5f57de1808">glyph</a>[i]-&gt;<a class="code hl_variable" href="structgf__font__glyph__t.html#a91dd3ea1f159fcd432b2a0853bac462a">texture</a>);</div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>                }</div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>                free(font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a1264a95b11cec574d66cda5f57de1808">glyph</a>);</div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>        }</div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>        <span class="keywordflow">if</span>(font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a828f0b4a3b04fbc9b1837bcc2c74d2dd">cache</a> != NULL) {</div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>                <span class="keywordflow">for</span>(i = 0; i &lt; arrlen(font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a828f0b4a3b04fbc9b1837bcc2c74d2dd">cache</a>); i++) {</div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>                        free(font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a828f0b4a3b04fbc9b1837bcc2c74d2dd">cache</a>[i].<a class="code hl_variable" href="structgf__font__cache__t.html#a964bcf258ee3be8f1bf5b432e1d52f5c">text</a>);</div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>                        <a class="code hl_function" href="gf__texture_8c.html#a3bfedc6c576e35173d3a7b1b9565e649">gf_texture_destroy</a>(font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a828f0b4a3b04fbc9b1837bcc2c74d2dd">cache</a>[i].<a class="code hl_variable" href="structgf__font__cache__t.html#af30687f9f6370477b4291cc6ccce30bb">texture</a>);</div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span>                }</div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span>                arrfree(font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a828f0b4a3b04fbc9b1837bcc2c74d2dd">cache</a>);</div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>        }</div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span>        <span class="keywordflow">if</span>(font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a6aa582459bd77a6ad903d5ad287babe1">buffer</a> != NULL) {</div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span>                free(font-&gt;<a class="code hl_variable" href="structgf__font__t.html#a6aa582459bd77a6ad903d5ad287babe1">buffer</a>);</div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span>        }</div>
+<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>        free(font);</div>
+<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>}</div>
 </div>
 <div class="ttc" id="agf__file_8c_html_a21009a41c9139fba583fd9034cc5f58d"><div class="ttname"><a href="gf__file_8c.html#a21009a41c9139fba583fd9034cc5f58d">gf_file_close</a></div><div class="ttdeci">void gf_file_close(gf_file_t *fp)</div><div class="ttdoc">Close file.</div><div class="ttdef"><b>Definition</b> <a href="gf__file_8c_source.html#l00084">gf_file.c:84</a></div></div>
 <div class="ttc" id="agf__file_8c_html_a50307b5b19b902357320ed26d4f000fd"><div class="ttname"><a href="gf__file_8c.html#a50307b5b19b902357320ed26d4f000fd">gf_file_read</a></div><div class="ttdeci">size_t gf_file_read(gf_file_t *fp, void *buffer, size_t size)</div><div class="ttdoc">Read file.</div><div class="ttdef"><b>Definition</b> <a href="gf__file_8c_source.html#l00062">gf_file.c:62</a></div></div>
 <div class="ttc" id="agf__file_8c_html_a75171efe7e9e4fb445ce99766db046bb"><div class="ttname"><a href="gf__file_8c.html#a75171efe7e9e4fb445ce99766db046bb">gf_file_open</a></div><div class="ttdeci">gf_file_t * gf_file_open(gf_engine_t *engine, const char *path, const char *mode)</div><div class="ttdoc">Open file.</div><div class="ttdef"><b>Definition</b> <a href="gf__file_8c_source.html#l00019">gf_file.c:19</a></div></div>
 <div class="ttc" id="agf__file_8h_html"><div class="ttname"><a href="gf__file_8h.html">gf_file.h</a></div><div class="ttdoc">File I/O.</div></div>
-<div class="ttc" id="agf__font_8c_html_a2264f26f7f9fd11d30d56d86b415b381"><div class="ttname"><a href="gf__font_8c.html#a2264f26f7f9fd11d30d56d86b415b381">gf_font_create_file</a></div><div class="ttdeci">gf_font_t * gf_font_create_file(gf_draw_t *draw, const char *path)</div><div class="ttdoc">Load font.</div><div class="ttdef"><b>Definition</b> <a href="gf__font_8c_source.html#l00270">gf_font.c:270</a></div></div>
-<div class="ttc" id="agf__font_8c_html_a2777beb54b042206a6873accb1333522"><div class="ttname"><a href="gf__font_8c.html#a2777beb54b042206a6873accb1333522">gf_font_destroy</a></div><div class="ttdeci">void gf_font_destroy(gf_font_t *font)</div><div class="ttdoc">Destroy font.</div><div class="ttdef"><b>Definition</b> <a href="gf__font_8c_source.html#l00290">gf_font.c:290</a></div></div>
+<div class="ttc" id="agf__font_8c_html_a2264f26f7f9fd11d30d56d86b415b381"><div class="ttname"><a href="gf__font_8c.html#a2264f26f7f9fd11d30d56d86b415b381">gf_font_create_file</a></div><div class="ttdeci">gf_font_t * gf_font_create_file(gf_draw_t *draw, const char *path)</div><div class="ttdoc">Load font.</div><div class="ttdef"><b>Definition</b> <a href="gf__font_8c_source.html#l00274">gf_font.c:274</a></div></div>
+<div class="ttc" id="agf__font_8c_html_a2777beb54b042206a6873accb1333522"><div class="ttname"><a href="gf__font_8c.html#a2777beb54b042206a6873accb1333522">gf_font_destroy</a></div><div class="ttdeci">void gf_font_destroy(gf_font_t *font)</div><div class="ttdoc">Destroy font.</div><div class="ttdef"><b>Definition</b> <a href="gf__font_8c_source.html#l00294">gf_font.c:294</a></div></div>
 <div class="ttc" id="agf__font_8c_html_aa179aebf715af02be254760427e70abf"><div class="ttname"><a href="gf__font_8c.html#aa179aebf715af02be254760427e70abf">gf_font_parse_line</a></div><div class="ttdeci">void gf_font_parse_line(gf_draw_t *draw, const char *path, gf_font_store_t *store, gf_font_t *font, char *line)</div><div class="ttdef"><b>Definition</b> <a href="gf__font_8c_source.html#l00131">gf_font.c:131</a></div></div>
 <div class="ttc" id="agf__font_8c_html_abc7719b5324b4b037de2a24c267b1f3e"><div class="ttname"><a href="gf__font_8c.html#abc7719b5324b4b037de2a24c267b1f3e">gf_font_render</a></div><div class="ttdeci">gf_texture_t * gf_font_render(gf_font_t *font, const char *text, double size, double *width)</div><div class="ttdoc">Render text.</div><div class="ttdef"><b>Definition</b> <a href="gf__font_8c_source.html#l00033">gf_font.c:33</a></div></div>
 <div class="ttc" id="agf__font_8c_html_ac0048135a16cab856891b9686a17809d"><div class="ttname"><a href="gf__font_8c.html#ac0048135a16cab856891b9686a17809d">gf_font_create</a></div><div class="ttdeci">gf_font_t * gf_font_create(gf_draw_t *draw, const char *path, const void *data, size_t size)</div><div class="ttdoc">Load font.</div><div class="ttdef"><b>Definition</b> <a href="gf__font_8c_source.html#l00226">gf_font.c:226</a></div></div>
