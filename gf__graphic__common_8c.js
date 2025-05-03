@@ -9,5 +9,6 @@ var gf__graphic__common_8c =
     [ "gf_graphic_fill_rect", "gf__graphic__common_8c.html#a4811198de205914602e5cdbafdcdd68d", null ],
     [ "gf_graphic_points", "gf__graphic__common_8c.html#af98ff53c05d6324aaa301c80186fd569", null ],
     [ "gf_graphic_text", "gf__graphic__common_8c.html#aa9d5d5bfbadc5412807ff95adfe70a1e", null ],
+    [ "gf_graphic_text_height", "gf__graphic__common_8c.html#a742683887f1ce914faeb942885186240", null ],
     [ "gf_graphic_text_width", "gf__graphic__common_8c.html#a1ce50172aa1749c26af704601fc131ef", null ]
 ];

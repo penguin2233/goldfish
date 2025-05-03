@@ -1,5 +1,5 @@
 <map id="gf_font_cache_t" name="gf_font_cache_t">
-<area shape="rect" id="Node000001" title="Font cache." alt="" coords="35,341,153,447"/>
+<area shape="rect" id="Node000001" title="Font cache." alt="" coords="35,341,153,467"/>
 <area shape="rect" id="Node000002" href="$structgf__texture__t.html" title="Texture." alt="" coords="31,133,157,279"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,279,97,325,91,325,91,279"/>
 <area shape="rect" id="Node000003" href="$structgf__draw__driver__texture__t.html" title="Driver&#45;dependent texture." alt="" coords="5,5,183,71"/>

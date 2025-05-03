@@ -2,12 +2,12 @@
 <area shape="rect" id="Node000001" title="Draw text." alt="" coords="5,55,128,80"/>
 <area shape="rect" id="Node000002" href="$gf__font_8c.html#adc4a1d10e49218c6383f5af6c4752fa1" title="Get glyph." alt="" coords="231,5,327,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,52,218,29,219,35,123,57"/>
-<area shape="rect" id="Node000003" href="$gf__font_8c.html#abc7719b5324b4b037de2a24c267b1f3e" title="Render text." alt="" coords="221,55,338,80"/>
+<area shape="rect" id="Node000003" href="$gf__font_8c.html#a92b3a7c671b15a15f831b189077bba2e" title="Render text." alt="" coords="221,55,338,80"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="128,65,207,65,207,70,128,70"/>
 <area shape="rect" id="Node000009" href="$gf__graphic__common_8c.html#a3285370a495233cc7db4f25317cd5fb0" title="Draw rectangle with texture." alt="" coords="176,108,383,133"/>
 <area shape="poly" id="edge5_Node000001_Node000009" title=" " alt="" coords="119,78,215,102,214,107,118,83"/>
-<area shape="rect" id="Node000004" href="$gf__math_8c.html#ac2b4df13ffece837a9c2016e75443a02" title="Calculate round(x)" alt="" coords="462,5,582,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="338,53,448,30,449,35,339,58"/>
+<area shape="rect" id="Node000004" href="$gf__math_8c.html#a011036c5742d54950ebecf62bc3d4581" title="Calculate floor(x)" alt="" coords="466,5,578,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="338,53,452,29,453,35,339,58"/>
 <area shape="rect" id="Node000005" href="$gf__texture_8c.html#a6cd0c41bfc9dbe140bb52f39aaa14080" title="Create texture." alt="" coords="453,55,591,80"/>
 <area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="338,65,440,65,440,70,338,70"/>
 <area shape="rect" id="Node000010" href="$gf__graphic__common_8c.html#a4157822cc342fa294329ed2c436d53f2" title="Draw polygon with texture." alt="" coords="431,105,613,145"/>
