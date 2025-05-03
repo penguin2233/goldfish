@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"gf__lua__gui_8c_source.html":[2,0,1,3,4],
 "gf__lua__metatable_8c.html":[2,0,1,3,5],
 "gf__lua__metatable_8c.html#a13d820c4f195f0f38ce7d791a9a4ddeb":[2,0,1,3,5,0],
 "gf__lua__metatable_8c.html#a438e60b3ef2df2ad0a220523e95d6dca":[2,0,1,3,5,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "gui_8h_source.html":[2,0,0,0,10],
 "index.html":[],
 "index.html#autotoc_md1":[0],
-"input_8h.html":[2,0,0,0,11],
-"input_8h.html#a1bcb3fe6d407a1f4791efcbd86cffac9":[2,0,0,0,11,2]
+"input_8h.html":[2,0,0,0,11]
 };

@@ -8,6 +8,7 @@ var gf__lua__graphic_8c =
     [ "gf_lua_call_graphic_points", "gf__lua__graphic_8c.html#a2e6fdc0f285f58339313e91b8558a49a", null ],
     [ "gf_lua_call_graphic_rect", "gf__lua__graphic_8c.html#ab59ff3a12925b2b97754c5ac1fd31d0f", null ],
     [ "gf_lua_call_graphic_text", "gf__lua__graphic_8c.html#ac952e785a11505168510cce7ba9e4e2f", null ],
+    [ "gf_lua_call_graphic_text_height", "gf__lua__graphic_8c.html#af5e938ad2a8b3bc6fa3d095154bb2a8f", null ],
     [ "gf_lua_call_graphic_text_width", "gf__lua__graphic_8c.html#a9bf746b9bd9f61f3ec9839c99de2e641", null ],
     [ "gf_lua_create_goldfish_graphic", "gf__lua__graphic_8c.html#aab17fee8887f5f00879e973689fc4eaa", null ]
 ];
