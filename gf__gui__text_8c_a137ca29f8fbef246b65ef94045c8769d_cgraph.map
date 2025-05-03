@@ -1,7 +1,21 @@
 <map id="gf_gui_create_text" name="gf_gui_create_text">
-<area shape="rect" id="Node000001" title="Create text component." alt="" coords="5,5,148,31"/>
-<area shape="rect" id="Node000002" href="$gf__gui_8c.html#a757066a859b84758831fbfbd4c5d47ad" title="Initialize component." alt="" coords="196,5,387,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,15,182,15,182,21,148,21"/>
-<area shape="rect" id="Node000003" href="$gf__prop_8c.html#a06e57f947a7719725d1af7ad7b19c79a" title="Create property container." alt="" coords="435,5,553,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="387,15,421,15,421,21,387,21"/>
+<area shape="rect" id="Node000001" title="Create text component." alt="" coords="5,114,148,140"/>
+<area shape="rect" id="Node000002" href="$gf__gui_8c.html#a757066a859b84758831fbfbd4c5d47ad" title="Initialize component." alt="" coords="417,14,608,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,112,129,67,160,43,195,25,256,9,319,3,379,4,433,10,432,15,379,10,319,9,257,14,197,30,163,47,133,71,90,116"/>
+<area shape="rect" id="Node000004" href="$gf__gui__scrollbar_8c.html#a5c6fd66df1974525588d57c03bc0195b" title="Create scrollbar component." alt="" coords="196,40,369,65"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="104,112,195,74,218,66,220,72,197,79,106,117"/>
+<area shape="rect" id="Node000005" href="$gf__gui_8c.html#a3e1d6b234e2a3c3f54a58ec461203d3c" title="Get property container." alt="" coords="219,89,346,114"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="148,116,205,109,206,114,149,121"/>
+<area shape="rect" id="Node000006" href="$gf__gui_8c.html#aee257055873dfe2a9ec29c293095886b" title="Set parent component." alt="" coords="213,138,352,164"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="149,133,200,139,200,144,148,138"/>
+<area shape="rect" id="Node000007" href="$gf__gui_8c.html#a2a2a1005ba3085ca46385c4938daff9a" title="Set component ID to property." alt="" coords="211,188,355,213"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="108,138,197,173,223,181,222,186,195,178,106,142"/>
+<area shape="rect" id="Node000010" href="$gf__prop_8c.html#acfa33e8db4e55a67b53465789f1bb6ba" title="Set integer to property." alt="" coords="207,237,358,262"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="92,138,136,180,165,203,197,223,212,230,209,235,195,228,162,208,132,184,88,142"/>
+<area shape="rect" id="Node000003" href="$gf__prop_8c.html#a06e57f947a7719725d1af7ad7b19c79a" title="Create property container." alt="" coords="656,14,775,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="608,24,642,24,642,30,608,30"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="370,40,404,36,404,42,370,46"/>
+<area shape="rect" id="Node000008" href="$gf__prop_8c.html#a0342e90764e9485cb83aa9bc6600d881" title="Set void pointer to property." alt="" coords="451,212,574,237"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="355,205,438,214,437,219,354,211"/>
+<area shape="poly" id="edge10_Node000010_Node000008" title=" " alt="" coords="358,239,437,230,438,235,359,244"/>
 </map>

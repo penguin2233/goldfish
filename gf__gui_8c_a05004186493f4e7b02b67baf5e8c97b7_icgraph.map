@@ -1,9 +1,11 @@
 <map id="gf_gui_get_prop_id" name="gf_gui_get_prop_id">
-<area shape="rect" id="Node000001" title="Get component ID from property." alt="" coords="428,35,573,60"/>
-<area shape="rect" id="Node000002" href="$gf__gui__window_8c.html#a5f3d8d400fb67a9840d8d94a5869bb3c" title=" " alt="" coords="212,5,380,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="414,38,380,33,381,27,414,32"/>
-<area shape="rect" id="Node000003" href="$gf__lua__metatable__gui_8c.html#aaddd2fbf4a1cfe789bf7743d6cded871" title=" " alt="" coords="216,55,376,95"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="414,62,376,67,376,62,414,57"/>
-<area shape="rect" id="Node000004" href="$gf__lua__metatable__gui_8c.html#ad82c204a1cd0be5f09632ba3ad0e66a8" title="Initialize GUI metatables." alt="" coords="5,63,164,88"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="202,78,164,78,164,73,202,73"/>
+<area shape="rect" id="Node000001" title="Get component ID from property." alt="" coords="428,55,573,80"/>
+<area shape="rect" id="Node000002" href="$gf__gui__text_8c.html#a3f4de7b840eb2420021dfcdc827eb1aa" title=" " alt="" coords="224,5,368,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="434,54,349,33,350,28,435,49"/>
+<area shape="rect" id="Node000003" href="$gf__gui__window_8c.html#a5f3d8d400fb67a9840d8d94a5869bb3c" title=" " alt="" coords="212,55,380,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="414,70,380,70,380,65,414,65"/>
+<area shape="rect" id="Node000004" href="$gf__lua__metatable__gui_8c.html#aaddd2fbf4a1cfe789bf7743d6cded871" title=" " alt="" coords="216,105,376,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="442,86,369,107,367,102,441,81"/>
+<area shape="rect" id="Node000005" href="$gf__lua__metatable__gui_8c.html#ad82c204a1cd0be5f09632ba3ad0e66a8" title="Initialize GUI metatables." alt="" coords="5,112,164,137"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="202,127,164,127,164,122,202,122"/>
 </map>

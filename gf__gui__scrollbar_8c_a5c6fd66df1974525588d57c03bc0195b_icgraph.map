@@ -1,0 +1,5 @@
+<map id="gf_gui_create_scrollbar" name="gf_gui_create_scrollbar">
+<area shape="rect" id="Node000001" title="Create scrollbar component." alt="" coords="196,5,369,31"/>
+<area shape="rect" id="Node000002" href="$gf__gui__text_8c.html#a137ca29f8fbef246b65ef94045c8769d" title="Create text component." alt="" coords="5,5,148,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,21,148,21,148,15,182,15"/>
+</map>

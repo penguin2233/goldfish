@@ -1,9 +1,11 @@
 <map id="gf_gui_set_parent" name="gf_gui_set_parent">
-<area shape="rect" id="Node000001" title="Set parent component." alt="" coords="427,35,565,60"/>
-<area shape="rect" id="Node000002" href="$gf__gui__window_8c.html#a0ac5e064cc4f520edd4bc72a4b2efe57" title="Create window component." alt="" coords="212,5,379,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="413,38,379,33,379,28,413,33"/>
-<area shape="rect" id="Node000003" href="$gf__lua__metatable__gui_8c.html#ae8ccb7d94f4c50cf3a907040c4fa765f" title=" " alt="" coords="215,55,375,95"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="414,61,376,67,375,62,413,56"/>
-<area shape="rect" id="Node000004" href="$gf__lua__metatable__gui_8c.html#ad82c204a1cd0be5f09632ba3ad0e66a8" title="Initialize GUI metatables." alt="" coords="5,63,164,88"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="201,78,164,78,164,73,201,73"/>
+<area shape="rect" id="Node000001" title="Set parent component." alt="" coords="427,55,565,80"/>
+<area shape="rect" id="Node000002" href="$gf__gui__text_8c.html#a137ca29f8fbef246b65ef94045c8769d" title="Create text component." alt="" coords="224,5,367,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="430,54,347,33,348,28,431,49"/>
+<area shape="rect" id="Node000003" href="$gf__gui__window_8c.html#a0ac5e064cc4f520edd4bc72a4b2efe57" title="Create window component." alt="" coords="212,55,379,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="413,70,379,70,379,65,413,65"/>
+<area shape="rect" id="Node000004" href="$gf__lua__metatable__gui_8c.html#ae8ccb7d94f4c50cf3a907040c4fa765f" title=" " alt="" coords="215,105,375,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="438,87,367,107,365,102,437,81"/>
+<area shape="rect" id="Node000005" href="$gf__lua__metatable__gui_8c.html#ad82c204a1cd0be5f09632ba3ad0e66a8" title="Initialize GUI metatables." alt="" coords="5,112,164,137"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="201,127,164,127,164,122,201,122"/>
 </map>

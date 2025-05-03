@@ -1,0 +1,7 @@
+<map id="gf_gui_create_scrollbar" name="gf_gui_create_scrollbar">
+<area shape="rect" id="Node000001" title="Create scrollbar component." alt="" coords="5,5,179,31"/>
+<area shape="rect" id="Node000002" href="$gf__gui_8c.html#a757066a859b84758831fbfbd4c5d47ad" title="Initialize component." alt="" coords="227,5,417,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,15,213,15,213,21,179,21"/>
+<area shape="rect" id="Node000003" href="$gf__prop_8c.html#a06e57f947a7719725d1af7ad7b19c79a" title="Create property container." alt="" coords="465,5,584,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="417,15,451,15,451,21,417,21"/>
+</map>
