@@ -1,0 +1,7 @@
+<map id="gf_math_round" name="gf_math_round">
+<area shape="rect" id="Node000001" title="Calculate round(x)" alt="" coords="341,5,461,31"/>
+<area shape="rect" id="Node000002" href="$gf__font_8c.html#abc7719b5324b4b037de2a24c267b1f3e" title="Render text." alt="" coords="176,5,293,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="328,21,294,21,294,15,328,15"/>
+<area shape="rect" id="Node000003" href="$gf__graphic__common_8c.html#aa9d5d5bfbadc5412807ff95adfe70a1e" title="Draw text." alt="" coords="5,5,128,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="162,21,128,21,128,15,162,15"/>
+</map>

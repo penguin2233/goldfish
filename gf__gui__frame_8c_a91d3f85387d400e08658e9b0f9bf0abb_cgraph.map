@@ -6,22 +6,22 @@
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="111,161,198,199,259,221,328,241,402,256,479,264,556,262,631,247,661,234,688,218,733,183,736,187,691,222,663,239,633,252,557,267,479,269,401,261,327,246,257,226,196,204,109,166"/>
 <area shape="rect" id="Node000004" href="$gf__graphic__common_8c.html#aa9d5d5bfbadc5412807ff95adfe70a1e" title="Draw text." alt="" coords="233,162,355,187"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="163,157,219,163,219,169,163,162"/>
-<area shape="rect" id="Node000019" href="$gf__graphic__common_8c.html#a1ce50172aa1749c26af704601fc131ef" title="Calculate text width." alt="" coords="211,112,377,138"/>
-<area shape="poly" id="edge7_Node000001_Node000019" title=" " alt="" coords="163,138,197,134,198,139,163,144"/>
-<area shape="rect" id="Node000020" href="$gf__gui_8c.html#a12905d9750d06d3440efc96eab4574e9" title="Calculate component X/Y/width/height." alt="" coords="225,63,363,88"/>
-<area shape="poly" id="edge9_Node000001_Node000020" title=" " alt="" coords="113,135,210,97,232,90,234,95,212,102,115,140"/>
-<area shape="rect" id="Node000024" href="$gf__prop_8c.html#aaa1dbc560946c6015231b6d78927a8a7" title="Get void pointer from property." alt="" coords="213,312,375,338"/>
-<area shape="poly" id="edge14_Node000001_Node000024" title=" " alt="" coords="96,162,141,223,174,259,212,291,237,305,234,309,209,295,170,263,137,226,91,165"/>
+<area shape="rect" id="Node000020" href="$gf__graphic__common_8c.html#a1ce50172aa1749c26af704601fc131ef" title="Calculate text width." alt="" coords="211,112,377,138"/>
+<area shape="poly" id="edge7_Node000001_Node000020" title=" " alt="" coords="163,138,197,134,198,139,163,144"/>
+<area shape="rect" id="Node000021" href="$gf__gui_8c.html#a12905d9750d06d3440efc96eab4574e9" title="Calculate component X/Y/width/height." alt="" coords="225,63,363,88"/>
+<area shape="poly" id="edge9_Node000001_Node000021" title=" " alt="" coords="113,135,210,97,232,90,234,95,212,102,115,140"/>
+<area shape="rect" id="Node000025" href="$gf__prop_8c.html#aaa1dbc560946c6015231b6d78927a8a7" title="Get void pointer from property." alt="" coords="213,312,375,338"/>
+<area shape="poly" id="edge14_Node000001_Node000025" title=" " alt="" coords="96,162,141,223,174,259,212,291,237,305,234,309,209,295,170,263,137,226,91,165"/>
 <area shape="rect" id="Node000005" href="$gf__font_8c.html#adc4a1d10e49218c6383f5af6c4752fa1" title="Get glyph." alt="" coords="481,112,577,138"/>
 <area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="355,159,467,135,468,140,356,164"/>
 <area shape="rect" id="Node000006" href="$gf__font_8c.html#abc7719b5324b4b037de2a24c267b1f3e" title="Render text." alt="" coords="470,162,587,187"/>
 <area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="356,172,456,172,456,177,356,177"/>
-<area shape="rect" id="Node000011" href="$gf__graphic__common_8c.html#a3285370a495233cc7db4f25317cd5fb0" title="Draw rectangle with texture." alt="" coords="425,211,632,236"/>
-<area shape="poly" id="edge6_Node000004_Node000011" title=" " alt="" coords="356,185,455,206,454,211,355,190"/>
-<area shape="poly" id="edge8_Node000019_Node000005" title=" " alt="" coords="378,122,467,122,467,128,378,128"/>
-<area shape="rect" id="Node000021" href="$gf__gui_8c.html#a2afb67331b3c6b3405299c2b55625e0c" title=" " alt="" coords="439,63,619,88"/>
-<area shape="poly" id="edge10_Node000020_Node000021" title=" " alt="" coords="363,73,425,73,425,78,363,78"/>
-<area shape="poly" id="edge11_Node000021_Node000002" title=" " alt="" coords="607,60,670,50,671,55,608,66"/>
-<area shape="poly" id="edge12_Node000021_Node000003" title=" " alt="" coords="595,86,633,97,682,118,726,141,723,146,680,123,631,102,594,91"/>
-<area shape="poly" id="edge13_Node000021_Node000021" title=" " alt="" coords="491,65,483,55,487,45,503,39,529,36,561,40,573,50,570,54,559,45,529,42,504,44,491,49,488,54,495,61"/>
+<area shape="rect" id="Node000012" href="$gf__graphic__common_8c.html#a3285370a495233cc7db4f25317cd5fb0" title="Draw rectangle with texture." alt="" coords="425,211,632,236"/>
+<area shape="poly" id="edge6_Node000004_Node000012" title=" " alt="" coords="356,185,455,206,454,211,355,190"/>
+<area shape="poly" id="edge8_Node000020_Node000005" title=" " alt="" coords="378,122,467,122,467,128,378,128"/>
+<area shape="rect" id="Node000022" href="$gf__gui_8c.html#a2afb67331b3c6b3405299c2b55625e0c" title=" " alt="" coords="439,63,619,88"/>
+<area shape="poly" id="edge10_Node000021_Node000022" title=" " alt="" coords="363,73,425,73,425,78,363,78"/>
+<area shape="poly" id="edge11_Node000022_Node000002" title=" " alt="" coords="607,60,670,50,671,55,608,66"/>
+<area shape="poly" id="edge12_Node000022_Node000003" title=" " alt="" coords="595,86,633,97,682,118,726,141,723,146,680,123,631,102,594,91"/>
+<area shape="poly" id="edge13_Node000022_Node000022" title=" " alt="" coords="491,65,483,55,487,45,503,39,529,36,561,40,573,50,570,54,559,45,529,42,504,44,491,49,488,54,495,61"/>
 </map>

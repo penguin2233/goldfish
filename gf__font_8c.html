@@ -103,6 +103,7 @@ $(document).ready(function(){initNavTree('gf__font_8c.html',''); initResizable()
 <code>#include &lt;<a class="el" href="gf__log_8h_source.html">gf_log.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="gf__texture_8h_source.html">gf_texture.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="gf__file_8h_source.html">gf_file.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="gf__math_8h_source.html">gf_math.h</a>&gt;</code><br />
 <code>#include &lt;string.h&gt;</code><br />
 <code>#include &lt;stdlib.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
@@ -110,70 +111,79 @@ Include dependency graph for gf_font.c:</div>
 <div class="dyncontent">
 <div class="center"><img src="gf__font_8c__incl.png" border="0" usemap="#asrc_2gf__font_8c" alt=""/></div>
 <map name="asrc_2gf__font_8c" id="asrc_2gf__font_8c">
-<area shape="rect" title=" " alt="" coords="954,5,1057,31"/>
-<area shape="rect" href="gf__pre_8h.html" title="Required headers before anything." alt="" coords="479,445,553,471"/>
-<area shape="poly" title=" " alt="" coords="1030,29,1064,49,1101,79,1130,117,1139,139,1143,163,1143,313,1140,333,1134,349,1124,361,1110,371,1077,385,1038,400,998,412,945,423,814,440,677,451,567,457,567,452,676,446,813,435,944,418,997,407,1036,395,1075,380,1108,366,1120,357,1129,346,1135,332,1137,313,1137,164,1134,141,1126,120,1097,83,1061,53,1027,33"/>
-<area shape="rect" title=" " alt="" coords="375,79,451,104"/>
-<area shape="poly" title=" " alt="" coords="954,26,745,45,608,61,465,81,465,76,607,55,744,39,954,20"/>
-<area shape="rect" href="gf__font_8h.html" title="Font." alt="" coords="476,79,556,104"/>
-<area shape="poly" title=" " alt="" coords="954,29,570,85,569,80,954,24"/>
-<area shape="rect" href="gf__log_8h.html" title="Logger." alt="" coords="719,225,793,251"/>
-<area shape="poly" title=" " alt="" coords="994,33,782,218,778,214,991,29"/>
-<area shape="rect" href="gf__texture_8h.html" title="Texture." alt="" coords="5,152,107,177"/>
-<area shape="poly" title=" " alt="" coords="954,24,699,39,532,56,363,81,221,115,103,150,102,145,219,110,362,76,531,51,698,34,954,18"/>
-<area shape="rect" href="gf__file_8h.html" title="File I/O." alt="" coords="905,225,980,251"/>
-<area shape="poly" title=" " alt="" coords="1005,32,952,212,947,211,999,30"/>
-<area shape="rect" title=" " alt="" coords="1178,79,1249,104"/>
-<area shape="poly" title=" " alt="" coords="1040,28,1167,72,1166,77,1038,33"/>
-<area shape="rect" title=" " alt="" coords="1273,79,1343,104"/>
-<area shape="poly" title=" " alt="" coords="1056,28,1260,76,1259,81,1055,33"/>
-<area shape="rect" title=" " alt="" coords="469,519,563,544"/>
-<area shape="poly" title=" " alt="" coords="519,471,519,505,513,505,513,471"/>
-<area shape="poly" title=" " alt="" coords="519,104,519,237,519,313,519,432,513,432,513,313,513,237,513,104"/>
-<area shape="rect" href="gf__macro_8h.html" title="Macro." alt="" coords="375,372,470,397"/>
-<area shape="poly" title=" " alt="" coords="515,105,433,360,428,358,510,103"/>
-<area shape="rect" href="font_8h.html" title="Type definitions related to font." alt="" coords="219,152,333,177"/>
-<area shape="poly" title=" " alt="" coords="478,107,329,151,327,145,477,101"/>
-<area shape="rect" href="draw_8h.html" title="Type definitions related to drawing interface." alt="" coords="94,225,213,251"/>
-<area shape="poly" title=" " alt="" coords="476,104,464,107,424,113,389,115,329,115,301,117,272,123,242,135,208,154,194,167,182,182,165,214,160,211,177,179,190,163,205,150,240,130,271,118,300,112,329,109,389,109,424,107,464,101,475,99"/>
-<area shape="rect" title=" " alt="" coords="927,372,1001,397"/>
-<area shape="poly" title=" " alt="" coords="557,95,661,111,794,138,859,155,917,175,964,198,994,224,1003,240,1008,258,1006,296,995,331,981,361,976,359,990,329,1001,295,1002,259,998,242,990,227,961,202,915,180,857,160,793,143,660,116,556,100"/>
-<area shape="poly" title=" " alt="" coords="439,395,492,435,488,439,436,399"/>
-<area shape="poly" title=" " alt="" coords="280,177,286,218,300,276,325,339,343,369,365,395,387,414,413,428,466,446,464,451,411,433,384,418,361,399,338,372,320,342,295,278,280,219,274,178"/>
-<area shape="poly" title=" " alt="" coords="287,176,322,224,410,359,406,361,318,227,283,179"/>
-<area shape="poly" title=" " alt="" coords="251,180,180,220,177,215,248,175"/>
-<area shape="rect" href="texture_8h.html" title="Type definitions related to texture." alt="" coords="90,299,225,324"/>
-<area shape="poly" title=" " alt="" coords="273,179,254,213,226,252,185,292,182,288,222,249,249,210,268,176"/>
-<area shape="poly" title=" " alt="" coords="131,253,108,267,88,284,77,303,76,313,80,323,104,354,131,371,205,395,274,416,344,432,465,450,465,455,344,437,273,421,203,400,129,376,100,358,75,325,71,313,72,301,84,280,105,262,128,249"/>
-<area shape="poly" title=" " alt="" coords="176,249,391,363,388,368,174,253"/>
-<area shape="poly" title=" " alt="" coords="179,223,250,182,253,187,182,227"/>
-<area shape="poly" title=" " alt="" coords="157,251,159,285,153,285,151,251"/>
-<area shape="rect" href="core_8h.html" title="Type definitions related to core." alt="" coords="604,299,719,324"/>
-<area shape="poly" title=" " alt="" coords="213,245,590,297,590,303,213,250"/>
-<area shape="poly" title=" " alt="" coords="168,322,199,359,221,379,245,395,301,419,360,436,417,446,466,451,465,457,416,451,359,441,300,424,243,400,218,383,195,363,163,326"/>
-<area shape="poly" title=" " alt="" coords="201,321,367,366,366,371,199,327"/>
-<area shape="poly" title=" " alt="" coords="651,326,539,437,536,433,648,323"/>
-<area shape="poly" title=" " alt="" coords="624,327,475,371,474,365,622,321"/>
-<area shape="rect" title=" " alt="" coords="785,372,852,397"/>
-<area shape="poly" title=" " alt="" coords="688,322,782,364,780,369,686,326"/>
-<area shape="poly" title=" " alt="" coords="758,251,751,286,744,307,733,326,694,366,649,398,603,424,563,442,560,438,601,419,646,394,691,361,729,322,739,305,746,285,753,250"/>
-<area shape="poly" title=" " alt="" coords="719,249,639,268,593,283,549,301,494,333,449,366,446,361,491,328,547,296,592,278,638,263,718,244"/>
-<area shape="poly" title=" " alt="" coords="742,253,689,292,686,288,739,249"/>
-<area shape="poly" title=" " alt="" coords="764,250,811,358,806,360,759,252"/>
-<area shape="poly" title=" " alt="" coords="55,178,45,226,45,250,52,299,64,338,86,368,125,395,152,406,190,415,282,432,465,451,465,456,282,437,188,421,151,411,123,400,83,372,59,340,46,301,40,251,40,225,50,177"/>
-<area shape="poly" title=" " alt="" coords="56,178,52,207,51,247,58,288,67,306,79,322,98,335,127,346,202,363,286,373,362,378,361,384,285,378,201,368,125,351,96,340,76,326,62,309,53,289,45,247,46,207,51,177"/>
-<area shape="poly" title=" " alt="" coords="73,175,128,215,125,219,70,180"/>
-<area shape="poly" title=" " alt="" coords="60,177,67,211,84,249,103,271,126,289,123,293,100,275,79,252,62,213,55,178"/>
-<area shape="poly" title=" " alt="" coords="958,249,985,278,1013,316,1023,338,1028,359,1026,380,1015,399,992,412,949,422,825,439,684,450,567,457,567,452,683,445,824,433,948,417,990,407,1011,395,1021,378,1023,359,1018,339,1009,319,981,281,954,253"/>
-<area shape="poly" title=" " alt="" coords="905,244,766,261,679,277,593,301,569,312,545,326,460,368,458,364,543,322,566,308,591,296,677,272,765,256,905,239"/>
-<area shape="poly" title=" " alt="" coords="906,251,721,298,719,293,905,246"/>
-<area shape="poly" title=" " alt="" coords="950,250,965,298,968,358,963,358,960,299,945,252"/>
-<area shape="rect" href="file_8h.html" title="Type definitions related to file I/O." alt="" coords="844,299,951,324"/>
-<area shape="poly" title=" " alt="" coords="937,252,914,289,910,286,933,250"/>
-<area shape="poly" title=" " alt="" coords="899,325,890,362,881,382,866,399,843,412,811,423,731,440,644,451,567,457,567,451,643,445,730,435,810,418,841,408,862,395,876,379,885,360,894,323"/>
-<area shape="poly" title=" " alt="" coords="844,323,484,377,484,372,843,318"/>
-<area shape="poly" title=" " alt="" coords="886,326,843,365,840,361,883,322"/>
-<area shape="poly" title=" " alt="" coords="910,323,946,360,942,364,906,326"/>
+<area shape="rect" title=" " alt="" coords="1149,5,1251,31"/>
+<area shape="rect" href="gf__pre_8h.html" title="Required headers before anything." alt="" coords="595,445,669,471"/>
+<area shape="poly" title=" " alt="" coords="1233,28,1294,56,1329,75,1364,99,1395,127,1421,160,1439,196,1445,236,1445,313,1443,361,1434,381,1416,399,1400,408,1374,415,1300,428,1089,445,859,455,683,459,683,453,859,449,1089,440,1299,422,1373,410,1398,403,1413,395,1430,378,1438,360,1440,313,1440,237,1434,198,1417,162,1392,131,1361,103,1326,80,1292,60,1231,33"/>
+<area shape="rect" title=" " alt="" coords="1385,79,1461,104"/>
+<area shape="poly" title=" " alt="" coords="1237,28,1375,72,1373,77,1235,33"/>
+<area shape="rect" href="gf__font_8h.html" title="Font." alt="" coords="677,79,757,104"/>
+<area shape="poly" title=" " alt="" coords="1149,30,772,85,771,79,1148,24"/>
+<area shape="rect" href="gf__log_8h.html" title="Logger." alt="" coords="1021,225,1096,251"/>
+<area shape="poly" title=" " alt="" coords="1195,32,1076,215,1072,212,1190,30"/>
+<area shape="rect" href="gf__texture_8h.html" title="Texture." alt="" coords="371,152,472,177"/>
+<area shape="poly" title=" " alt="" coords="1149,24,937,39,801,56,666,81,554,114,461,149,459,144,552,109,665,76,801,51,936,34,1148,19"/>
+<area shape="rect" href="gf__file_8h.html" title="File I/O." alt="" coords="1163,225,1237,251"/>
+<area shape="poly" title=" " alt="" coords="1203,31,1203,211,1197,211,1197,31"/>
+<area shape="rect" href="gf__math_8h.html" title="Math." alt="" coords="128,225,216,251"/>
+<area shape="poly" title=" " alt="" coords="1148,23,1042,26,898,36,735,53,571,81,510,96,464,112,360,154,209,222,206,217,358,150,462,107,509,91,570,76,734,48,898,30,1042,21,1148,17"/>
+<area shape="rect" title=" " alt="" coords="1485,79,1555,104"/>
+<area shape="poly" title=" " alt="" coords="1252,28,1471,76,1470,81,1251,33"/>
+<area shape="rect" title=" " alt="" coords="1579,79,1650,104"/>
+<area shape="poly" title=" " alt="" coords="1252,24,1390,44,1566,76,1565,81,1389,50,1251,29"/>
+<area shape="rect" title=" " alt="" coords="585,519,679,544"/>
+<area shape="poly" title=" " alt="" coords="635,471,635,505,629,505,629,471"/>
+<area shape="poly" title=" " alt="" coords="677,95,509,98,399,104,285,115,179,133,90,158,56,174,30,193,14,213,8,237,8,312,13,333,26,351,47,367,75,382,149,406,237,424,333,437,428,446,581,453,580,458,427,451,332,442,236,430,147,411,73,387,44,372,22,354,8,335,3,313,3,236,9,211,26,189,53,170,88,153,178,127,284,110,398,98,508,92,677,90"/>
+<area shape="rect" href="gf__macro_8h.html" title="Macro." alt="" coords="585,372,679,397"/>
+<area shape="poly" title=" " alt="" coords="723,104,727,137,725,178,710,231,689,282,649,361,644,359,685,280,705,229,720,177,722,137,717,105"/>
+<area shape="rect" href="font_8h.html" title="Type definitions related to font." alt="" coords="597,152,710,177"/>
+<area shape="poly" title=" " alt="" coords="709,106,675,144,671,140,705,103"/>
+<area shape="rect" href="draw_8h.html" title="Type definitions related to drawing interface." alt="" coords="459,225,578,251"/>
+<area shape="poly" title=" " alt="" coords="681,106,634,126,587,154,557,184,535,215,530,212,553,180,584,150,632,121,679,102"/>
+<area shape="rect" title=" " alt="" coords="1328,372,1403,397"/>
+<area shape="poly" title=" " alt="" coords="758,94,849,106,974,130,1114,168,1184,193,1251,223,1302,253,1321,271,1341,297,1356,328,1364,357,1359,359,1351,329,1336,300,1317,274,1299,257,1248,228,1182,198,1113,173,973,135,849,112,757,99"/>
+<area shape="poly" title=" " alt="" coords="635,398,635,432,629,432,629,398"/>
+<area shape="poly" title=" " alt="" coords="662,176,679,214,697,270,704,302,706,334,703,367,694,398,681,421,663,438,659,435,676,417,690,396,698,366,701,334,698,302,692,271,674,216,657,179"/>
+<area shape="poly" title=" " alt="" coords="655,178,637,358,632,357,650,177"/>
+<area shape="poly" title=" " alt="" coords="626,180,547,221,544,216,624,175"/>
+<area shape="rect" href="texture_8h.html" title="Type definitions related to texture." alt="" coords="443,299,578,324"/>
+<area shape="poly" title=" " alt="" coords="648,179,625,214,593,253,542,293,539,289,589,249,621,210,644,176"/>
+<area shape="poly" title=" " alt="" coords="491,253,467,266,445,283,432,302,431,312,434,323,464,363,503,395,546,420,585,438,583,443,543,425,500,399,461,366,430,325,426,313,427,300,441,279,464,262,489,249"/>
+<area shape="poly" title=" " alt="" coords="538,249,565,269,593,297,612,328,626,358,621,360,607,330,589,300,562,273,535,253"/>
+<area shape="poly" title=" " alt="" coords="546,223,626,182,628,186,549,227"/>
+<area shape="poly" title=" " alt="" coords="520,251,516,285,511,285,515,251"/>
+<area shape="rect" href="core_8h.html" title="Type definitions related to core." alt="" coords="856,299,971,324"/>
+<area shape="poly" title=" " alt="" coords="579,247,843,295,842,300,578,253"/>
+<area shape="rect" href="math_8h.html" title="Type definitions related to math." alt="" coords="145,299,266,324"/>
+<area shape="poly" title=" " alt="" coords="469,253,270,298,269,293,468,248"/>
+<area shape="poly" title=" " alt="" coords="520,322,575,396,612,434,608,438,571,399,516,326"/>
+<area shape="poly" title=" " alt="" coords="532,322,602,363,599,367,529,326"/>
+<area shape="poly" title=" " alt="" coords="892,327,668,441,665,437,890,322"/>
+<area shape="poly" title=" " alt="" coords="869,327,691,371,690,366,867,321"/>
+<area shape="rect" title=" " alt="" coords="1096,372,1163,397"/>
+<area shape="poly" title=" " alt="" coords="949,321,1084,366,1082,371,947,327"/>
+<area shape="poly" title=" " alt="" coords="221,322,270,358,303,378,337,395,401,417,467,432,581,450,581,455,466,438,400,422,335,400,300,383,267,363,218,326"/>
+<area shape="poly" title=" " alt="" coords="266,320,571,371,570,376,266,325"/>
+<area shape="poly" title=" " alt="" coords="1053,252,1025,288,984,326,907,371,825,406,747,431,683,448,682,443,745,426,823,401,904,366,981,322,1022,285,1049,249"/>
+<area shape="poly" title=" " alt="" coords="1022,250,940,272,845,301,788,326,677,370,675,365,786,322,843,296,939,266,1021,245"/>
+<area shape="poly" title=" " alt="" coords="1036,253,950,295,948,290,1034,248"/>
+<area shape="poly" title=" " alt="" coords="1067,250,1120,358,1115,361,1062,252"/>
+<area shape="poly" title=" " alt="" coords="371,171,303,176,226,187,159,203,134,214,118,227,113,240,111,261,115,289,125,323,146,366,161,381,183,395,214,408,258,419,368,436,485,446,581,452,581,457,484,452,367,441,257,424,213,413,180,400,157,385,142,369,120,325,109,290,106,261,107,238,114,224,131,210,157,198,225,182,302,171,370,166"/>
+<area shape="poly" title=" " alt="" coords="421,178,415,207,412,245,417,286,423,305,434,322,463,348,497,365,535,375,571,380,570,385,534,380,496,370,460,352,430,326,419,307,411,287,407,245,410,206,416,177"/>
+<area shape="poly" title=" " alt="" coords="439,175,493,215,490,219,435,180"/>
+<area shape="poly" title=" " alt="" coords="426,177,434,211,450,249,467,270,486,288,482,292,463,274,446,252,429,213,421,178"/>
+<area shape="poly" title=" " alt="" coords="1222,249,1247,269,1268,297,1273,315,1273,331,1269,346,1261,359,1235,381,1202,400,1159,416,1100,428,955,446,803,455,683,459,683,453,803,450,954,441,1099,423,1158,411,1200,395,1232,376,1257,355,1264,343,1268,330,1268,316,1263,300,1243,273,1219,253"/>
+<area shape="poly" title=" " alt="" coords="1176,253,1092,289,983,327,906,345,828,360,694,379,693,374,827,355,905,340,982,321,1090,284,1174,248"/>
+<area shape="poly" title=" " alt="" coords="1163,251,973,298,972,293,1162,246"/>
+<area shape="poly" title=" " alt="" coords="1231,248,1271,268,1311,297,1337,327,1356,358,1352,361,1333,330,1308,301,1268,273,1229,253"/>
+<area shape="rect" href="file_8h.html" title="Type definitions related to file I/O." alt="" coords="1147,299,1253,324"/>
+<area shape="poly" title=" " alt="" coords="1203,251,1203,285,1197,285,1197,251"/>
+<area shape="poly" title=" " alt="" coords="1203,324,1198,361,1190,382,1176,399,1149,411,1100,421,963,438,683,457,683,452,963,432,1100,416,1147,406,1173,395,1186,379,1193,360,1198,324"/>
+<area shape="poly" title=" " alt="" coords="1147,322,693,378,693,373,1146,317"/>
+<area shape="poly" title=" " alt="" coords="1190,326,1152,364,1148,360,1186,322"/>
+<area shape="poly" title=" " alt="" coords="1228,322,1327,364,1325,369,1226,326"/>
+<area shape="poly" title=" " alt="" coords="161,253,148,267,136,285,130,305,134,323,149,343,164,357,196,373,283,395,364,416,445,432,581,450,581,455,444,438,362,422,282,400,195,378,161,361,145,346,130,325,125,304,131,283,144,264,157,249"/>
+<area shape="poly" title=" " alt="" coords="199,248,282,283,387,321,484,348,572,368,570,374,483,353,386,327,280,288,197,253"/>
+<area shape="poly" title=" " alt="" coords="180,250,197,285,192,287,175,252"/>
 </map>
 </div>
 </div>
@@ -290,7 +300,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Font </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="gf__font_8c_source.html#l00220">220</a> of file <a class="el" href="gf__font_8c_source.html">gf_font.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gf__font_8c_source.html#l00227">227</a> of file <a class="el" href="gf__font_8c_source.html">gf_font.c</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -354,7 +364,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Font </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="gf__font_8c_source.html#l00264">264</a> of file <a class="el" href="gf__font_8c_source.html">gf_font.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gf__font_8c_source.html#l00271">271</a> of file <a class="el" href="gf__font_8c_source.html">gf_font.c</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -414,7 +424,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="gf__font_8c_source.html#l00284">284</a> of file <a class="el" href="gf__font_8c_source.html">gf_font.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gf__font_8c_source.html#l00291">291</a> of file <a class="el" href="gf__font_8c_source.html">gf_font.c</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -478,7 +488,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Glyph </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="gf__font_8c_source.html#l00021">21</a> of file <a class="el" href="gf__font_8c_source.html">gf_font.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gf__font_8c_source.html#l00022">22</a> of file <a class="el" href="gf__font_8c_source.html">gf_font.c</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -551,7 +561,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p>This is a private method to parse BDF line </p>
 
-<p class="definition">Definition at line <a class="el" href="gf__font_8c_source.html#l00125">125</a> of file <a class="el" href="gf__font_8c_source.html">gf_font.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gf__font_8c_source.html#l00132">132</a> of file <a class="el" href="gf__font_8c_source.html">gf_font.c</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -629,17 +639,19 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Texture </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="gf__font_8c_source.html#l00032">32</a> of file <a class="el" href="gf__font_8c_source.html">gf_font.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gf__font_8c_source.html#l00033">33</a> of file <a class="el" href="gf__font_8c_source.html">gf_font.c</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="gf__font_8c_abc7719b5324b4b037de2a24c267b1f3e_cgraph.png" border="0" usemap="#agf__font_8c_abc7719b5324b4b037de2a24c267b1f3e_cgraph" alt=""/></div>
 <map name="agf__font_8c_abc7719b5324b4b037de2a24c267b1f3e_cgraph" id="agf__font_8c_abc7719b5324b4b037de2a24c267b1f3e_cgraph">
-<area shape="rect" title="Render text." alt="" coords="5,13,123,38"/>
-<area shape="rect" href="gf__texture_8c.html#a6cd0c41bfc9dbe140bb52f39aaa14080" title="Create texture." alt="" coords="171,13,308,38"/>
-<area shape="poly" title=" " alt="" coords="123,23,157,23,157,28,123,28"/>
-<area shape="rect" href="gf__driver_8c.html#a034ba7f18e4d2c0395d4116182c47785" title="Register driver&#45;dependent texture." alt="" coords="356,5,532,45"/>
-<area shape="poly" title=" " alt="" coords="308,23,342,23,342,28,308,28"/>
+<area shape="rect" title="Render text." alt="" coords="5,31,123,56"/>
+<area shape="rect" href="gf__math_8c.html#ac2b4df13ffece837a9c2016e75443a02" title="Calculate round(x)" alt="" coords="179,5,299,31"/>
+<area shape="poly" title=" " alt="" coords="122,32,165,26,166,31,123,38"/>
+<area shape="rect" href="gf__texture_8c.html#a6cd0c41bfc9dbe140bb52f39aaa14080" title="Create texture." alt="" coords="171,55,308,80"/>
+<area shape="poly" title=" " alt="" coords="123,49,157,53,157,59,122,54"/>
+<area shape="rect" href="gf__driver_8c.html#a034ba7f18e4d2c0395d4116182c47785" title="Register driver&#45;dependent texture." alt="" coords="356,47,532,87"/>
+<area shape="poly" title=" " alt="" coords="308,65,342,65,342,70,308,70"/>
 </map>
 </div>
 <div class="dynheader">

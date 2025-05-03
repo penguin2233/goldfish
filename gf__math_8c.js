@@ -6,5 +6,6 @@ var gf__math_8c =
     [ "gf_math_nearest_2pow", "gf__math_8c.html#aefea2441e869786726095fcda71750dc", null ],
     [ "gf_math_normal", "gf__math_8c.html#a5438b2f7f1324cdd664f2b823faa1ba6", null ],
     [ "gf_math_normalize", "gf__math_8c.html#a3bd2afc9ff0e67e60afef9fe82553726", null ],
+    [ "gf_math_round", "gf__math_8c.html#ac2b4df13ffece837a9c2016e75443a02", null ],
     [ "gf_math_subtract", "gf__math_8c.html#a9df6d1b30bea0b200582e2873bddd113", null ]
 ];
