@@ -65,12 +65,13 @@ var searchData=
   ['gf_5fserver_2eh_62',['gf_server.h',['../gf__server_8h.html',1,'']]],
   ['gf_5fstb_5fds_2ec_63',['gf_stb_ds.c',['../gf__stb__ds_8c.html',1,'']]],
   ['gf_5fstb_5fimage_2ec_64',['gf_stb_image.c',['../gf__stb__image_8c.html',1,'']]],
-  ['gf_5ftexture_2ec_65',['gf_texture.c',['../gf__texture_8c.html',1,'']]],
-  ['gf_5ftexture_2eh_66',['gf_texture.h',['../gf__texture_8h.html',1,'']]],
-  ['gf_5fthread_2ec_67',['gf_thread.c',['../win32_2gf__thread_8c.html',1,'(Global Namespace)'],['../posix_2gf__thread_8c.html',1,'(Global Namespace)']]],
-  ['gf_5fthread_2eh_68',['gf_thread.h',['../gf__thread_8h.html',1,'']]],
-  ['gf_5fversion_2ec_69',['gf_version.c',['../gf__version_8c.html',1,'']]],
-  ['gf_5fversion_2eh_70',['gf_version.h',['../gf__version_8h.html',1,'']]],
-  ['graphic_2eh_71',['graphic.h',['../graphic_8h.html',1,'']]],
-  ['gui_2eh_72',['gui.h',['../gui_8h.html',1,'']]]
+  ['gf_5fstb_5ftruetype_2ec_65',['gf_stb_truetype.c',['../gf__stb__truetype_8c.html',1,'']]],
+  ['gf_5ftexture_2ec_66',['gf_texture.c',['../gf__texture_8c.html',1,'']]],
+  ['gf_5ftexture_2eh_67',['gf_texture.h',['../gf__texture_8h.html',1,'']]],
+  ['gf_5fthread_2ec_68',['gf_thread.c',['../win32_2gf__thread_8c.html',1,'(Global Namespace)'],['../posix_2gf__thread_8c.html',1,'(Global Namespace)']]],
+  ['gf_5fthread_2eh_69',['gf_thread.h',['../gf__thread_8h.html',1,'']]],
+  ['gf_5fversion_2ec_70',['gf_version.c',['../gf__version_8c.html',1,'']]],
+  ['gf_5fversion_2eh_71',['gf_version.h',['../gf__version_8h.html',1,'']]],
+  ['graphic_2eh_72',['graphic.h',['../graphic_8h.html',1,'']]],
+  ['gui_2eh_73',['gui.h',['../gui_8h.html',1,'']]]
 ];

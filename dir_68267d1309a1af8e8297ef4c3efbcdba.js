@@ -26,6 +26,7 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     [ "gf_server.c", "gf__server_8c.html", "gf__server_8c" ],
     [ "gf_stb_ds.c", "gf__stb__ds_8c.html", "gf__stb__ds_8c" ],
     [ "gf_stb_image.c", "gf__stb__image_8c.html", "gf__stb__image_8c" ],
+    [ "gf_stb_truetype.c", "gf__stb__truetype_8c.html", "gf__stb__truetype_8c" ],
     [ "gf_texture.c", "gf__texture_8c.html", "gf__texture_8c" ],
     [ "gf_version.c", "gf__version_8c.html", "gf__version_8c" ]
 ];
