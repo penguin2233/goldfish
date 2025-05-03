@@ -1,16 +1,17 @@
 <map id="gf_gui_create_component" name="gf_gui_create_component">
-<area shape="rect" id="Node000001" title="Initialize component." alt="" coords="441,107,632,132"/>
-<area shape="rect" id="Node000002" href="$gf__gui__button_8c.html#a5690903ff5e1b10c4096f4af36b03938" title="Create button component." alt="" coords="227,5,386,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="498,103,392,52,343,33,345,28,394,48,500,98"/>
-<area shape="rect" id="Node000003" href="$gf__gui__window_8c.html#a0ac5e064cc4f520edd4bc72a4b2efe57" title="Create window component." alt="" coords="5,56,172,81"/>
-<area shape="poly" id="edge8_Node000001_Node000003" title=" " alt="" coords="458,107,393,97,278,84,172,76,173,71,278,79,394,91,458,102"/>
-<area shape="rect" id="Node000004" href="$gf__gui__frame_8c.html#a42a1bf0e5c4d23fedbd785f7e6c6896e" title="Create frame component." alt="" coords="229,107,385,132"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="427,122,385,122,385,117,427,117"/>
-<area shape="rect" id="Node000005" href="$gf__gui__scrollbar_8c.html#a5c6fd66df1974525588d57c03bc0195b" title="Create scrollbar component." alt="" coords="220,156,393,181"/>
-<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="464,137,367,159,366,153,463,132"/>
-<area shape="rect" id="Node000006" href="$gf__gui__text_8c.html#a137ca29f8fbef246b65ef94045c8769d" title="Create text component." alt="" coords="17,181,160,207"/>
-<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="508,142,457,172,426,186,394,197,333,207,271,211,160,206,161,201,271,206,332,202,393,191,424,181,454,168,505,138"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="239,36,145,59,143,53,237,31"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="237,106,143,84,145,79,239,101"/>
-<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="206,183,161,188,160,183,206,178"/>
+<area shape="rect" id="Node000001" title="Initialize component." alt="" coords="624,79,815,104"/>
+<area shape="rect" id="Node000002" href="$gf__gui__button_8c.html#a5690903ff5e1b10c4096f4af36b03938" title="Create button component." alt="" coords="417,28,576,53"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="649,78,553,56,554,51,650,73"/>
+<area shape="rect" id="Node000003" href="$gf__gui__scrollbar_8c.html#a5c6fd66df1974525588d57c03bc0195b" title="Create scrollbar component." alt="" coords="196,28,369,53"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="688,73,637,43,607,29,575,18,509,9,442,11,380,20,329,31,328,25,379,14,441,6,509,4,577,13,609,24,640,38,691,69"/>
+<area shape="rect" id="Node000004" href="$gf__gui__text_8c.html#a137ca29f8fbef246b65ef94045c8769d" title="Create text component." alt="" coords="5,104,148,129"/>
+<area shape="poly" id="edge8_Node000001_Node000004" title=" " alt="" coords="691,114,640,145,609,159,577,170,512,182,445,186,379,184,314,177,199,155,115,132,117,127,201,150,315,171,379,178,445,180,511,176,575,165,607,154,637,140,688,110"/>
+<area shape="rect" id="Node000005" href="$gf__gui__window_8c.html#a0ac5e064cc4f520edd4bc72a4b2efe57" title="Create window component." alt="" coords="199,79,366,104"/>
+<area shape="poly" id="edge9_Node000001_Node000005" title=" " alt="" coords="610,94,366,94,366,89,610,89"/>
+<area shape="rect" id="Node000006" href="$gf__gui__frame_8c.html#a42a1bf0e5c4d23fedbd785f7e6c6896e" title="Create frame component." alt="" coords="419,129,575,155"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="650,110,554,132,553,127,649,105"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="404,43,370,43,370,38,404,38"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="429,59,338,81,336,76,428,54"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="223,60,197,69,106,106,104,102,195,64,221,55"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="428,129,336,107,338,102,429,124"/>
 </map>

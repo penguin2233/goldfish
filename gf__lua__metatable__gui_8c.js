@@ -9,6 +9,7 @@ var gf__lua__metatable__gui_8c =
     [ "gf_lua_meta_call_gui_component_color", "gf__lua__metatable__gui_8c.html#aa4dd694433fcb823fad5aa4532d616d4", null ],
     [ "gf_lua_meta_call_gui_component_destroy", "gf__lua__metatable__gui_8c.html#a9825b6f3860ae7802e23ddd02eaf8ea7", null ],
     [ "gf_lua_meta_call_gui_component_font", "gf__lua__metatable__gui_8c.html#a59db0b85f023f24bda567439aa3eb044", null ],
+    [ "gf_lua_meta_call_gui_component_move", "gf__lua__metatable__gui_8c.html#ac8ada75c50e0c19a9fb54361995fea9f", null ],
     [ "gf_lua_meta_call_gui_component_parent", "gf__lua__metatable__gui_8c.html#ae8ccb7d94f4c50cf3a907040c4fa765f", null ],
     [ "gf_lua_meta_call_gui_component_prop", "gf__lua__metatable__gui_8c.html#aaddd2fbf4a1cfe789bf7743d6cded871", null ],
     [ "gf_lua_meta_call_gui_component_size", "gf__lua__metatable__gui_8c.html#a26ab37c4ca63cc701ed20492f9be66da", null ],
