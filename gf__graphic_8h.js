@@ -20,5 +20,6 @@ var gf__graphic_8h =
     [ "gf_graphic_set_camera", "gf__graphic_8h.html#af8285b506b90125960bf01b427a9a883", null ],
     [ "gf_graphic_text", "gf__graphic_8h.html#aa9d5d5bfbadc5412807ff95adfe70a1e", null ],
     [ "gf_graphic_text_height", "gf__graphic_8h.html#a742683887f1ce914faeb942885186240", null ],
-    [ "gf_graphic_text_width", "gf__graphic_8h.html#a1ce50172aa1749c26af704601fc131ef", null ]
+    [ "gf_graphic_text_width", "gf__graphic_8h.html#a1ce50172aa1749c26af704601fc131ef", null ],
+    [ "gf_graphic_text_wrap", "gf__graphic_8h.html#a6ba5106cf323b2ceb3d5415d70abd522", null ]
 ];

@@ -1,5 +1,7 @@
 var NAVTREEINDEX3 =
 {
+"globals_func.html":[2,1,1,0],
+"globals_func.html":[2,1,1],
 "globals_g.html":[2,1,0,2],
 "globals_j.html":[2,1,0,3],
 "globals_l.html":[2,1,0,4],
@@ -133,11 +135,13 @@ var NAVTREEINDEX3 =
 "structgf__font__bbox__t.html#a74aeb849bbd50cbe19cd3f992a583fd9":[1,0,9,2],
 "structgf__font__bbox__t.html#aadca894f3608eb26ffdf5a84bfb7dbd3":[1,0,9,0],
 "structgf__font__cache__t.html":[1,0,10],
-"structgf__font__cache__t.html#a66fc40ce5d998eb279bc6f9a362aa615":[1,0,10,4],
-"structgf__font__cache__t.html#a954292ddb137ecc5f2f46d58257a09a2":[1,0,10,1],
-"structgf__font__cache__t.html#a964bcf258ee3be8f1bf5b432e1d52f5c":[1,0,10,2],
+"structgf__font__cache__t.html#a03aff9a6fffd5184d0378a37e8e6f2df":[1,0,10,2],
+"structgf__font__cache__t.html#a66fc40ce5d998eb279bc6f9a362aa615":[1,0,10,6],
+"structgf__font__cache__t.html#a954292ddb137ecc5f2f46d58257a09a2":[1,0,10,3],
+"structgf__font__cache__t.html#a964bcf258ee3be8f1bf5b432e1d52f5c":[1,0,10,4],
 "structgf__font__cache__t.html#acce90289d0a6cde6f45372933baf0528":[1,0,10,0],
-"structgf__font__cache__t.html#af30687f9f6370477b4291cc6ccce30bb":[1,0,10,3],
+"structgf__font__cache__t.html#aeadc720d0f2ccb5112f8e885f1f54be6":[1,0,10,1],
+"structgf__font__cache__t.html#af30687f9f6370477b4291cc6ccce30bb":[1,0,10,5],
 "structgf__font__glyph__t.html":[1,0,11],
 "structgf__font__glyph__t.html#a2eb5224830d39157b39b55d8d13819c4":[1,0,11,2],
 "structgf__font__glyph__t.html#a41bd708fc4a7caadf6d9e0090fd1a880":[1,0,11,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX3 =
 "structgf__version__t.html#a573839ca44261b9ccbd73e43be57d326":[1,0,31,6],
 "structgf__version__t.html#aa67a3c7e2ee37cd404c34f837b1ff3c5":[1,0,31,3],
 "structgf__version__t.html#ab555af19af1deaab5ddbe08b15f2b803":[1,0,31,2],
-"structgf__version__t.html#ac38d0e162b52e8d20fc27ecbf4148375":[1,0,31,1],
-"structgf__version__t.html#adf3afb0a4b590b655d7e5ccd334bc51d":[1,0,31,8],
-"structgf__version__t.html#af6a2e2d97455e9a11a76e34d5b4b25c1":[1,0,31,4],
-"texture_8h.html":[2,0,0,0,20],
-"texture_8h_source.html":[2,0,0,0,20]
+"structgf__version__t.html#ac38d0e162b52e8d20fc27ecbf4148375":[1,0,31,1]
 };

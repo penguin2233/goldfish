@@ -1,0 +1,15 @@
+<map id="gf_graphic_text_wrap" name="gf_graphic_text_wrap">
+<area shape="rect" id="Node000001" title="Draw text with wrapping." alt="" coords="5,55,168,80"/>
+<area shape="rect" id="Node000002" href="$gf__font_8c.html#adc4a1d10e49218c6383f5af6c4752fa1" title="Get glyph." alt="" coords="271,5,367,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,52,258,28,259,33,148,57"/>
+<area shape="rect" id="Node000003" href="$gf__font_8c.html#a92b3a7c671b15a15f831b189077bba2e" title="Render text." alt="" coords="261,55,378,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="168,65,247,65,247,70,168,70"/>
+<area shape="rect" id="Node000009" href="$gf__graphic__common_8c.html#a3285370a495233cc7db4f25317cd5fb0" title="Draw rectangle with texture." alt="" coords="216,108,423,133"/>
+<area shape="poly" id="edge5_Node000001_Node000009" title=" " alt="" coords="144,78,251,102,250,108,142,83"/>
+<area shape="rect" id="Node000004" href="$gf__math_8c.html#ac2b4df13ffece837a9c2016e75443a02" title="Calculate round(x)" alt="" coords="502,5,622,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="378,53,488,30,489,35,379,58"/>
+<area shape="rect" id="Node000005" href="$gf__texture_8c.html#a6cd0c41bfc9dbe140bb52f39aaa14080" title="Create texture." alt="" coords="493,55,631,80"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="378,65,480,65,480,70,378,70"/>
+<area shape="rect" id="Node000010" href="$gf__graphic__common_8c.html#a4157822cc342fa294329ed2c436d53f2" title="Draw polygon with texture." alt="" coords="471,105,653,145"/>
+<area shape="poly" id="edge6_Node000009_Node000010" title=" " alt="" coords="423,120,457,120,457,126,423,125"/>
+</map>

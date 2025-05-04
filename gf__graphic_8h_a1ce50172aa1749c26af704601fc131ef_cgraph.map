@@ -4,8 +4,8 @@
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,30,217,24,217,29,173,35"/>
 <area shape="rect" id="Node000003" href="$gf__font_8c.html#a92b3a7c671b15a15f831b189077bba2e" title="Render text." alt="" coords="220,55,337,80"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="173,51,207,56,206,61,172,57"/>
-<area shape="rect" id="Node000004" href="$gf__math_8c.html#a011036c5742d54950ebecf62bc3d4581" title="Calculate floor(x)" alt="" coords="398,29,510,55"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="337,56,384,49,385,55,338,62"/>
+<area shape="rect" id="Node000004" href="$gf__math_8c.html#ac2b4df13ffece837a9c2016e75443a02" title="Calculate round(x)" alt="" coords="394,29,514,55"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="337,56,380,50,381,55,338,62"/>
 <area shape="rect" id="Node000005" href="$gf__texture_8c.html#a6cd0c41bfc9dbe140bb52f39aaa14080" title="Create texture." alt="" coords="385,79,523,104"/>
 <area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="338,73,372,77,371,83,337,78"/>
 </map>
