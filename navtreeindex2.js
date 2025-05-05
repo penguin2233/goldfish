@@ -1,7 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"gf__lua__graphic_8c.html#a13d820c4f195f0f38ce7d791a9a4ddeb":[2,0,1,3,3,0],
-"gf__lua__graphic_8c.html#a2e6fdc0f285f58339313e91b8558a49a":[2,0,1,3,3,5],
 "gf__lua__graphic_8c.html#a438e60b3ef2df2ad0a220523e95d6dca":[2,0,1,3,3,2],
 "gf__lua__graphic_8c.html#a4a8b5bd4a3f26e4e775db703d383e315":[2,0,1,3,3,3],
 "gf__lua__graphic_8c.html#a5ef5de5a55ded17bb3901dc8eefe8a0c":[2,0,1,3,3,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX2 =
 "globals_c.html":[2,1,0,1],
 "globals_defs.html":[2,1,6],
 "globals_enum.html":[2,1,4],
-"globals_eval.html":[2,1,5]
+"globals_eval.html":[2,1,5],
+"globals_func.html":[2,1,1,0],
+"globals_func.html":[2,1,1]
 };

@@ -1,16 +1,14 @@
 <map id="gf_gui_get_parent" name="gf_gui_get_parent">
-<area shape="rect" id="Node000001" title="Get parent component." alt="" coords="441,80,580,105"/>
-<area shape="rect" id="Node000002" href="$gf__draw__common_8c.html#a0ea1f5b431dd6a45a59c7afa0cc1d324" title=" " alt="" coords="241,5,379,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="469,77,392,45,358,33,359,28,394,39,471,72"/>
-<area shape="rect" id="Node000003" href="$gf__gui__scrollbar_8c.html#a795ebee186ebcbe504e48763596ebcfa" title=" " alt="" coords="227,55,393,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="427,85,393,81,394,75,428,80"/>
-<area shape="rect" id="Node000006" href="$gf__gui__scrollbar_8c.html#a4a010f0e12708ff0a322585f61cfef9e" title=" " alt="" coords="236,104,384,129"/>
-<area shape="poly" id="edge4_Node000001_Node000006" title=" " alt="" coords="428,105,385,110,384,105,427,100"/>
-<area shape="rect" id="Node000007" href="$gf__lua__metatable__gui_8c.html#ae8ccb7d94f4c50cf3a907040c4fa765f" title=" " alt="" coords="230,154,390,194"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="469,113,394,144,364,156,362,151,392,140,467,108"/>
-<area shape="rect" id="Node000004" href="$gf__gui__scrollbar_8c.html#a5c6fd66df1974525588d57c03bc0195b" title="Create scrollbar component." alt="" coords="5,80,179,105"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="214,81,179,85,178,80,213,76"/>
-<area shape="poly" id="edge5_Node000006_Node000004" title=" " alt="" coords="222,110,179,105,179,100,223,104"/>
-<area shape="rect" id="Node000008" href="$gf__lua__metatable__gui_8c.html#ad82c204a1cd0be5f09632ba3ad0e66a8" title="Initialize GUI metatables." alt="" coords="13,161,171,187"/>
-<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="216,177,172,177,172,171,216,171"/>
+<area shape="rect" id="Node000001" title="Get parent component." alt="" coords="441,55,580,80"/>
+<area shape="rect" id="Node000002" href="$gf__gui__scrollbar_8c.html#a795ebee186ebcbe504e48763596ebcfa" title=" " alt="" coords="227,5,393,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="445,54,362,33,363,28,446,49"/>
+<area shape="rect" id="Node000005" href="$gf__gui__scrollbar_8c.html#a4a010f0e12708ff0a322585f61cfef9e" title=" " alt="" coords="236,55,384,80"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="428,70,384,70,384,65,428,65"/>
+<area shape="rect" id="Node000006" href="$gf__lua__metatable__gui_8c.html#ae8ccb7d94f4c50cf3a907040c4fa765f" title=" " alt="" coords="230,105,390,145"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="453,87,381,107,380,102,451,81"/>
+<area shape="rect" id="Node000003" href="$gf__gui__scrollbar_8c.html#a5c6fd66df1974525588d57c03bc0195b" title="Create scrollbar component." alt="" coords="5,31,179,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="214,32,179,36,178,31,213,27"/>
+<area shape="poly" id="edge4_Node000005_Node000003" title=" " alt="" coords="222,60,179,56,179,50,223,55"/>
+<area shape="rect" id="Node000007" href="$gf__lua__metatable__gui_8c.html#ad82c204a1cd0be5f09632ba3ad0e66a8" title="Initialize GUI metatables." alt="" coords="13,112,171,137"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="216,127,172,127,172,122,216,122"/>
 </map>
